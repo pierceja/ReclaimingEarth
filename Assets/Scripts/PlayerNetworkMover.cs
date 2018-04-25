@@ -14,10 +14,14 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
     float smoothing = 10f;
     float health = 100f;
 
+    Animator anim;
+    bool idle = true;
+    bool walking = false;
+    bool running = false;
 
     void Start()
     {
-
+        anim = GetComponentInChildren<Animator>();
         if (photonView.isMine)
         {
             GetComponent<FirstPersonController>().enabled = true;
@@ -36,6 +40,9 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
         {
             transform.position = Vector3.Lerp(transform.position, position, Time.deltaTime * smoothing);
             transform.rotation = Quaternion.Lerp(transform.rotation, rotation, Time.deltaTime * smoothing);
+            anim.SetBool("Idle", idle);
+            anim.SetBool("Walking", walking);
+            anim.SetBool("Running", running);
             yield return null;
         }
     }
@@ -47,12 +54,18 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
             stream.SendNext(transform.position);
             stream.SendNext(transform.rotation);
             stream.SendNext(health);
+            stream.SendNext(anim.GetBool("Idle"));
+            stream.SendNext(anim.GetBool("Walking"));
+            stream.SendNext(anim.GetBool("Running"));
         }
         else
         {
             position = (Vector3)stream.ReceiveNext();
             rotation = (Quaternion)stream.ReceiveNext();
             health = (float)stream.ReceiveNext();
+            idle = (bool)stream.ReceiveNext();
+            walking = (bool)stream.ReceiveNext();
+            running = (bool)stream.ReceiveNext();
         }
     }
 
