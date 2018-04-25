@@ -13,8 +13,10 @@ public class VertFire : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        while (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
+            AudioSource fireSound = GetComponent<AudioSource>();
+            fireSound.Play();
             animatorComp.SetTrigger("FireVert");
         }
 		
