@@ -17,7 +17,6 @@ public class NetworkManager : MonoBehaviour
 
         PhotonNetwork.logLevel = PhotonLogLevel.Full;
         PhotonNetwork.ConnectUsingSettings("0.1");
-        print("Start");
     }
 
     void Update()
@@ -27,15 +26,12 @@ public class NetworkManager : MonoBehaviour
 
     void OnJoinedLobby()
     {
-        print("Joined Lobby");
         RoomOptions ro = new RoomOptions() { IsVisible = true, MaxPlayers = 10 };
         PhotonNetwork.JoinOrCreateRoom("ReclaimEarth", ro, TypedLobby.Default);
-        print("Created Room");
     }
 
     void OnJoinedRoom()
     {
-        print("Joined Room");
         StartSpawnProcess(0f);
     }
 

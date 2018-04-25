@@ -41,6 +41,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        private Animator animator;
+        private bool walking = false;
+        private bool running = false;
+        private bool idle = true;
 
         // Use this for initialization
         private void Start()
@@ -55,6 +59,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            animator = GetComponentInChildren<Animator>();
         }
 
 
@@ -81,6 +86,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+
+            animator.SetBool("Walking", walking);
+            animator.SetBool("Running", running);
+            animator.SetBool("Idle", idle);
         }
 
 
@@ -231,8 +241,25 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 StopAllCoroutines();
                 StartCoroutine(!m_IsWalking ? m_FovKick.FOVKickUp() : m_FovKick.FOVKickDown());
             }
+
+            walking = false;
+            running = false;
+            idle = false;
+            if (isMoving())
+            {
+                if (m_IsWalking)
+                    walking = true;
+                else
+                    running = true;
+            }
+            else
+                idle = true;
         }
 
+        private bool isMoving()
+        {
+            return Input.GetKey(KeyCode.W);//|| Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.DownArrow);
+        }
 
         private void RotateView()
         {
