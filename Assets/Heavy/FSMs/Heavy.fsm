@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<!DOCTYPE qfsmproject SYSTEM 'qfsm.dtd'>
+<qfsmproject version="0.54" author="Qfsm">
+  <machine nummooreout="0" transfontitalic="0" draw_it="1" statefontsize="8" transfont="Helvetica" statefontitalic="0" author="XM" description="FSM for individual behavior of every Heavy type alien&#xa;" version="" name="Heavy" arrowtype="2" numbits="3" statefontweight="50" statefont="Helvetica" numin="0" transfontsize="8" transfontweight="50" type="2" numout="0" initialstate="0">
+    <outputnames_moore></outputnames_moore>
+    <inputnames></inputnames>
+    <outputnames></outputnames>
+    <itransition ypos="293" endx="399.9999999999999" xpos="339.9999999999999" endy="293"/>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="293" code="0" xpos="440" linewidth="1">Patrol (walking)</state>
+    <state pencolor="0" exit_actions="" radius="50" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="381.2466666666666" code="1" xpos="597.9466666666666" linewidth="1">Roar (in combat running)</state>
+    <state pencolor="0" exit_actions="" radius="60" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="317.5" code="2" xpos="825.8333333333334" linewidth="1">light machine gun</state>
+    <state pencolor="0" exit_actions="" radius="60" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="633.3333333333333" code="3" xpos="473.3333333333333" linewidth="1">Rocket Launcher</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="636" code="4" xpos="864" linewidth="1">Soak</state>
+    <state pencolor="0" exit_actions="" radius="50" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="667.4999999999999" code="5" xpos="1141.666666666667" linewidth="1">Run away</state>
+    <state pencolor="0" exit_actions="" radius="50" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="788" code="6" xpos="924" linewidth="1">Chase</state>
+    <transition c1x="504.1415331072402" c2y="338.1528406302581" c1y="315.7473542427057" description="" straight="1" type="2" ypos="293.3418678551534" endx="552.4275212158394" xpos="479.9985390529405" endy="360.5583270178104" c2x="528.2845271615398">
+      <from>0</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">Playerdistance&lt;1100</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="416.6848359249939" c2y="348.4292407369471" c1y="344.9705254338487" description="" straight="0" type="2" ypos="332.6587457801927" endx="410.5138343919703" xpos="434.7861834380125" endy="320.0289851406939" c2x="333.5688049896762">
+      <from>0</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">Player Distance > 1100</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="559.3732876213722" c2y="525.905072866352" c1y="478.4768123993709" description="" straight="1" type="2" ypos="431.0485519323897" endx="473.3333357333331" xpos="602.3932635653918" endy="573.3333333333333" c2x="516.3533116773526">
+      <from>1</from>
+      <to>3</to>
+      <inputs default="0" any="0" invert="0">PlayerDistance(500,1100)</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="698.6133177077992" c2y="553.1680810323771" c1y="484.1643764178485" description="" straight="1" type="2" ypos="415.1606718033199" endx="826.4662753273155" xpos="634.686838898041" endy="622.1717856469059" c2x="762.5397965175573">
+      <from>1</from>
+      <to>4</to>
+      <inputs default="0" any="0" invert="0">randomization</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="684.1526196663618" c2y="341.1268610897918" c1y="349.6959926525601" description="" straight="1" type="2" ypos="358.2651242153283" endx="767.7535194433854" xpos="642.3521697778501" endy="332.5577295270235" c2x="725.9530695548737">
+      <from>1</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">Player Distance &lt; 500</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="887.6132929704424" c2y="332.58571919141" c1y="191.8686480720789" description="" straight="1" type="2" ypos="272.3453983175874" endx="885.1247795526953" xpos="865.3436098054445" endy="308.3062844716341" c2x="965.0181783290366">
+      <from>2</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">Player Distance &lt; 500</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="683.3405507357782" c2y="269.0257548600435" c1y="269.5094097631176" description="" straight="1" type="2" ypos="269.9930646661917" endx="471.6514000556866" xpos="789.185126075824" endy="268.5420999569694" c2x="577.4959753957324">
+      <from>2</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">Player Dead</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="950.4551815248738" c2y="535.867384850064" c1y="448.9561292501243" description="" straight="1" type="2" ypos="362.0448736501846" endx="1119.305986891669" xpos="866.0297788414762" endy="622.7786404500038" c2x="1034.880584208271">
+      <from>2</from>
+      <to>5</to>
+      <inputs default="0" any="0" invert="0">hpM / hpP &lt; 1 * randomization</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="708.7702746773236" c2y="533.8658545310885" c1y="452.218320344014" description="" straight="1" type="2" ypos="370.5707861569395" endx="530.6259993030041" xpos="797.8424123644834" endy="615.513388718163" c2x="619.6981369901638">
+      <from>2</from>
+      <to>3</to>
+      <inputs default="0" any="0" invert="0">Disntance>500||hp%&lt;15%</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="456.7942997668972" c2y="412.0937736659874" c1y="493.6775969030268" description="" straight="1" type="2" ypos="575.2614201400661" endx="453.8925742329437" xpos="458.245162533874" endy="330.5099504289481" c2x="455.3434369999205">
+      <from>3</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">Player Dead</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="601.9452112945036" c2y="430.0137522437717" c1y="510.2241478614114" description="" straight="1" type="2" ypos="590.4345434790512" endx="775.2715577446049" xpos="515.2820380694529" endy="349.803356626132" c2x="688.6083845195543">
+      <from>3</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">Distance&lt;500*hp%>40</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="426.3429373576013" c2y="1017.590148715616" c1y="888.518528674328" description="" straight="0" type="2" ypos="647.5269086330404" endx="1161.069516669574" xpos="415.036314368282" endy="713.581768756903" c2x="1122.262893680254">
+      <from>3</from>
+      <to>5</to>
+      <inputs default="0" any="0" invert="0">hpA/hpP&lt;0.5*personality</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="594.4874372780525" c2y="777.637542549711" c1y="758.2528130382556" description="" straight="0" type="2" ypos="655.2014168601334" endx="874.8830716788763" xpos="529.2062867443075" endy="797.3556053944999" c2x="732.9352544784645">
+      <from>3</from>
+      <to>6</to>
+      <inputs default="0" any="0" invert="0">hpM/hpP > 1 * personality</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="771.5850678246093" c2y="467.444571350576" c1y="538.1414460429394" description="" straight="1" type="2" ypos="608.8383207353029" endx="645.4831586407405" xpos="834.6360224165437" endy="396.7476966582125" c2x="708.5341132326749">
+      <from>4</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">soak time > 10s</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1250.225116271368" c2y="150.1453791649852" c1y="242.4420048578368" description="" straight="0" type="2" ypos="663.1616792646971" endx="454.1556838966355" xpos="893.3639775834563" endy="255.5885497017487" c2x="1130.169586573924">
+      <from>4</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">Player Dead</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="866.7320637924704" c2y="741.264153575446" c1y="746.9514890073772" description="" straight="0" type="2" ypos="673.3338242481225" endx="871.0013333886998" xpos="849.6408368276453" endy="675.3825003114364" c2x="927.2113012414905">
+      <from>4</from>
+      <to>4</to>
+      <inputs default="0" any="0" invert="0">soaktime&lt;10s</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="852.9423909553296" c2y="449.9957644705677" c1y="523.360739911152" description="" straight="1" type="2" ypos="596.7257153517364" endx="815.6573916721593" xpos="871.5848905969149" endy="376.6307890299833" c2x="834.2998913137445">
+      <from>4</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">time > 10s * randomization</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="749.5249978904496" c2y="629.9388836408147" c1y="632.5484348545891" description="" straight="0" type="2" ypos="635.8246527350302" endx="533.2408916677392" xpos="824.0003843351381" endy="636.6626657603736" c2x="627.7162781124276">
+      <from>4</from>
+      <to>3</to>
+      <inputs default="0" any="0" invert="0">time > 10s * randomization</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1579.557803057833" c2y="-8.384069519535672" c1y="176.8766369906682" description="" straight="0" type="2" ypos="743.2786404500042" endx="421.4973597321992" xpos="946.360679774998" endy="257.5366061533818" c2x="731.2972485796124">
+      <from>6</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">Chase for 3000 no found</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="640.3972220265503" c2y="595.2251214446219" c1y="784.3759373936642" description="" straight="0" type="2" ypos="777.7568422938654" endx="596.6592286176194" xpos="875.0604687373566" endy="431.2300889511587" c2x="624.3932039333635">
+      <from>6</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">chase for 3000 player found</inputs>
+      <outputs></outputs>
+    </transition>
+  </machine>
+</qfsmproject>

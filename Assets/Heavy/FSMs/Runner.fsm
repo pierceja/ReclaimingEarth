@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<!DOCTYPE qfsmproject SYSTEM 'qfsm.dtd'>
+<qfsmproject version="0.54" author="Qfsm">
+  <machine nummooreout="0" transfontitalic="0" draw_it="1" statefontsize="8" transfont="Helvetica" statefontitalic="0" author="" description="" version="" name="Runner" arrowtype="2" numbits="3" statefontweight="50" statefont="Helvetica" numin="0" transfontsize="8" transfontweight="50" type="2" numout="0" initialstate="0">
+    <outputnames_moore></outputnames_moore>
+    <inputnames></inputnames>
+    <outputnames></outputnames>
+    <itransition ypos="120" endx="339.1666666666667" xpos="269.1666666666667" endy="120"/>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="120" code="0" xpos="379.1666666666667" linewidth="1">Patrol</state>
+    <state pencolor="0" exit_actions="" radius="50" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="120" code="6" xpos="648.3333333333333" linewidth="1">Player Spotted</state>
+    <state pencolor="0" exit_actions="" radius="50" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="121.6666666666667" code="2" xpos="931.6666666666667" linewidth="1">Charge</state>
+    <state pencolor="0" exit_actions="" radius="50" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="332.4999999999999" code="3" xpos="701.6666666666667" linewidth="1">Shotgun</state>
+    <state pencolor="0" exit_actions="" radius="60" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="348.3333333333334" code="4" xpos="1076.666666666667" linewidth="1">Submachine gun</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="520.8333333333333" code="5" xpos="809.1666666666666" linewidth="1">Chase</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="538.3333333333334" code="7" xpos="1160.833333333334" linewidth="1">run away</state>
+    <transition c1x="478.9191357964355" c2y="118.0923833863439" c1y="119.303681080447" description="" straight="1" type="2" ypos="120.5149787745501" endx="598.4307044091888" xpos="419.1633514900588" endy="116.8810856922408" c2x="538.6749201028121">
+      <from>0</from>
+      <to>6</to>
+      <inputs default="0" any="0" invert="0">Player Distance &lt; 800</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="759.4565443431983" c2y="119.921288105796" c1y="120.1743114623689" description="" straight="1" type="2" ypos="120.4273348189417" endx="881.7066187305773" xpos="698.331507149509" endy="119.6682647492232" c2x="820.5815815368878">
+      <from>6</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">Player > 200</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="844.3787807283006" c2y="247.4892016110978" c1y="204.8783184224501" description="" straight="1" type="2" ypos="162.2674352338024" endx="728.1666136668257" xpos="902.484864259038" endy="290.1000847997455" c2x="786.2726971975632">
+      <from>2</from>
+      <to>3</to>
+      <inputs default="0" any="0" invert="0">charge hit</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="989.368070552251" c2y="250.5034493638484" c1y="207.2955540421198" description="" straight="1" type="2" ypos="164.0876587203912" endx="1051.838490008596" xpos="958.132860824079" endy="293.7113446855771" c2x="1020.603280280423">
+      <from>2</from>
+      <to>4</to>
+      <inputs default="0" any="0" invert="0">charge no hit</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="573.3758189221827" c2y="202.4885162033226" c1y="257.2313649240103" description="" straight="1" type="2" ypos="311.9742136446981" endx="407.9794752063259" xpos="656.0739907801112" endy="147.7456674826348" c2x="490.6776470642544">
+      <from>3</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">Player Dead</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="841.0256031009403" c2y="330.5168177704955" c1y="331.673968168668" description="" straight="1" type="2" ypos="332.8311185668405" endx="1019.745668783636" xpos="751.6655702595926" endy="329.359667372323" c2x="930.385635942288">
+      <from>3</from>
+      <to>4</to>
+      <inputs default="0" any="0" invert="0">PlayerDistance>Shotgunrange||hp%&lt;50</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1157.598381968589" c2y="127.4809283138608" c1y="252.2967258049762" description="" straight="0" type="2" ypos="338.1008473109883" endx="981.6592366941168" xpos="1135.787697017993" endy="120.8047258041245" c2x="1084.161713351633">
+      <from>4</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">time > 20s, hp % > 75%</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1419.403157242139" c2y="29.62592013474455" c1y="-36.77129952350674" description="" straight="0" type="2" ypos="353.5311103152237" endx="362.7520795735148" xpos="1136.441101958407" endy="83.52313979299578" c2x="638.1609517411603">
+      <from>4</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">Player Dead</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="966.2373250161797" c2y="461.522064558496" c1y="422.056353317932" description="" straight="1" type="2" ypos="382.5906420773679" endx="843.8963923516451" xpos="1027.407791348447" endy="500.9877757990601" c2x="905.0668586839124">
+      <from>4</from>
+      <to>5</to>
+      <inputs default="0" any="0" invert="0">hpA/hpP>1*personality*PlayerDistance>gunrange</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="927.2540366774028" c2y="352.2857037882213" c1y="353.0754648775994" description="" straight="1" type="2" ypos="353.8652259669775" endx="747.9176575855894" xpos="1016.92222622331" endy="351.4959426988432" c2x="837.5858471314961">
+      <from>4</from>
+      <to>3</to>
+      <inputs default="0" any="0" invert="0">PlayerDistance&lt;shotgunrange*hp%>50</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1115.507920457924" c2y="468.9178313167073" c1y="436.0547912448913" description="" straight="1" type="2" ypos="403.1917511730753" endx="1144.587794691195" xpos="1100.967983341289" endy="501.7808713885233" c2x="1130.04785757456">
+      <from>4</from>
+      <to>7</to>
+      <inputs default="0" any="0" invert="0">hpM/hpP&lt;0.3*personality</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="608.7726961454633" c2y="544.6506452040004" c1y="517.0752662350858" description="" straight="0" type="2" ypos="536.9998872661711" endx="374.4930167639707" xpos="772.5792025028762" endy="159.726024172915" c2x="301.632856454717">
+      <from>5</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">chase for 4500 Player not found</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="474.5084562976932" c2y="313.4808592566645" c1y="538.4832929603688" description="" straight="0" type="2" ypos="509.0059842104881" endx="616.2365005103661" xpos="770.9552310390128" endy="158.3378836496552" c2x="478.7494066082899">
+      <from>5</from>
+      <to>6</to>
+      <inputs default="0" any="0" invert="0">Chase for 4500 player found</inputs>
+      <outputs></outputs>
+    </transition>
+  </machine>
+</qfsmproject>

@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<!DOCTYPE qfsmproject SYSTEM 'qfsm.dtd'>
+<qfsmproject version="0.54" author="Qfsm">
+  <machine nummooreout="0" transfontitalic="0" draw_it="1" statefontsize="8" transfont="Helvetica" statefontitalic="0" author="" description="" version="1.0" name="Healer" arrowtype="0" numbits="3" statefontweight="50" statefont="Helvetica" numin="0" transfontsize="8" transfontweight="50" type="2" numout="0" initialstate="0">
+    <outputnames_moore></outputnames_moore>
+    <inputnames></inputnames>
+    <outputnames></outputnames>
+    <itransition ypos="146" endx="218" xpos="158" endy="146"/>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="146" code="0" xpos="258" linewidth="1">Patrol</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="150" code="1" xpos="491" linewidth="1">run</state>
+    <state pencolor="0" exit_actions="" radius="60" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="269" code="2" xpos="388" linewidth="1">Start_praying</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="328" code="3" xpos="774" linewidth="1">Bone_Staff</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="448" code="4" xpos="616" linewidth="1">Metal_Staff</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="476" code="5" xpos="367" linewidth="1">Wood_Staff</state>
+    <state pencolor="0" exit_actions="" radius="40" description="" finalstate="0" entry_actions="" moore_outputs="" ypos="599" code="6" xpos="428" linewidth="1">run_away</state>
+    <transition c1x="178.3836056109204" c2y="40.47700498754195" c1y="56.2156486659143" description="" straight="1" type="2" ypos="110.2229123600034" endx="267.2936490569475" xpos="240.1114561800017" endy="107.0946264995914" c2x="315.1392817910827">
+      <from>0</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">No alien dmged</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="349.0908639266527" c2y="145.6293300805095" c1y="145.9323100637148" description="" straight="1" type="2" ypos="146.2352900469202" endx="451.273975827085" xpos="297.9993079764365" endy="145.3263500973041" c2x="400.1824198768688">
+      <from>0</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">Alien dmged/In combat</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="451.4382326640846" c2y="207.2599243917893" c1y="194.04401384177" description="" straight="1" type="2" ypos="180.8281032917506" endx="423.2903018605027" xpos="465.5121980658755" endy="220.4758349418087" c2x="437.3642672622936">
+      <from>1</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0"></inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="548.1467071525433" c2y="268.5459702836973" c1y="248.7830556359413" description="" straight="1" type="2" ypos="229.0201409881853" endx="778.9613893835684" xpos="432.7393660370307" endy="288.3088849314533" c2x="663.5540482680558">
+      <from>2</from>
+      <to>3</to>
+      <inputs default="0" any="0" invert="0">runner charge</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="475.8494366466049" c2y="405.7858552051736" c1y="360.7218284108308" description="" straight="1" type="2" ypos="315.657801616488" endx="576.1016520067706" xpos="425.7233289665222" endy="450.8498819995164" c2x="525.9755443266878">
+      <from>2</from>
+      <to>4</to>
+      <inputs default="0" any="0" invert="0">Heavy Soak</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="320.0483069441054" c2y="399.3790871928187" c1y="343.535262025634" description="" straight="0" type="2" ypos="326.6914368584494" endx="349.1114561800017" xpos="371.5167323261573" endy="440.2229123600034" c2x="319.5798815620535">
+      <from>2</from>
+      <to>5</to>
+      <inputs default="0" any="0" invert="0">unit_dmged * randomization</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="140.8487329368836" c2y="594.9497013730263" c1y="436.2804462771719" description="" straight="0" type="2" ypos="307.5161993875606" endx="388.9946857683416" xpos="341.9945396204138" endy="590.1351558564413" c2x="129.4244395424057">
+      <from>2</from>
+      <to>6</to>
+      <inputs default="0" any="0" invert="0">hp &lt; 30 %</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="318.8447541849394" c2y="199.124875669342" c1y="213.4440513328707" description="" straight="1" type="2" ypos="227.7632269963995" endx="267.7014250014533" xpos="344.4164187766824" endy="184.8057000058133" c2x="293.2730895931964">
+      <from>2</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">player dead</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="638.9728197341816" c2y="286.6520678294258" c1y="304.3041356588516" description="" straight="1" type="2" ypos="321.9562034882774" endx="448" xpos="734.4592296012725" endy="269" c2x="543.4864098670909">
+      <from>3</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">Charge Complete</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="851.7866866742382" c2y="369.8437829057648" c1y="236.6258714063774" description="" straight="1" type="2" ypos="305.2906817678536" endx="813.8219715902403" xpos="806.9285114366122" endy="331.76969211821" c2x="886.4682080951557">
+      <from>3</from>
+      <to>3</to>
+      <inputs default="0" any="0" invert="0">charging</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="548.2432671130424" c2y="324.5079692794938" c1y="367.403648838384" description="" straight="0" type="2" ypos="423.2993283972742" endx="445.6544172656244" xpos="584.5376920367514" endy="285.6122897206037" c2x="506.9488421893334">
+      <from>4</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">Soak Complete</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="732.7986450651893" c2y="548.3379195482173" c1y="420.4668107380211" description="" straight="1" type="2" ypos="449.2115650656308" endx="645.8489396255395" xpos="655.9816471658153" endy="474.6278200991162" c2x="681.820224101225">
+      <from>4</from>
+      <to>4</to>
+      <inputs default="0" any="0" invert="0">Soak in Use</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="482.3993499503567" c2y="373.7347545832452" c1y="442.9339380824022" description="" straight="0" type="2" ypos="454.464428915912" endx="388.0000014634146" xpos="400.7078503924856" endy="329" c2x="429.3457505106429">
+      <from>5</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">unithp%>50</inputs>
+      <outputs></outputs>
+    </transition>
+  </machine>
+</qfsmproject>
