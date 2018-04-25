@@ -223,7 +223,7 @@ MonoBehaviour:
         Address: 
         Length: 0
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0
@@ -628,7 +628,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -1304,7 +1304,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -2077,7 +2077,7 @@ MonoBehaviour:
         Address: 
         Length: 0
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0
@@ -2482,7 +2482,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -3158,7 +3158,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -3664,7 +3664,7 @@ MonoBehaviour:
         Address: 
         Length: 0
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.000024587227
@@ -4069,7 +4069,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -4745,7 +4745,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -5251,7 +5251,7 @@ MonoBehaviour:
         Address: 
         Length: 0
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 5.1161384e-11
@@ -5656,7 +5656,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -6332,7 +6332,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -6838,7 +6838,7 @@ MonoBehaviour:
         Address: 020000001e000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.0364189
@@ -7243,7 +7243,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -7919,7 +7919,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -8425,7 +8425,7 @@ MonoBehaviour:
         Address: 020000001f000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.02
@@ -8830,7 +8830,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -9506,7 +9506,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -10012,7 +10012,7 @@ MonoBehaviour:
         Address: 0200000020000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.00070481
@@ -10417,7 +10417,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -11093,7 +11093,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -11599,7 +11599,7 @@ MonoBehaviour:
         Address: 0200000021000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.04607105
@@ -12004,7 +12004,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -12680,7 +12680,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -13186,7 +13186,7 @@ MonoBehaviour:
         Address: 0200000022000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.00830725
@@ -13591,7 +13591,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -14267,7 +14267,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -14773,7 +14773,7 @@ MonoBehaviour:
         Address: 0200000023000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.008010878
@@ -15178,7 +15178,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -15854,7 +15854,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -16360,7 +16360,7 @@ MonoBehaviour:
         Address: 0200000024000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.000005049208
@@ -16765,7 +16765,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -17441,7 +17441,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -17947,7 +17947,7 @@ MonoBehaviour:
         Address: 0200000025000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.000004853739
@@ -18352,7 +18352,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -19028,7 +19028,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -19534,7 +19534,7 @@ MonoBehaviour:
         Address: 0200000026000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.0000023496286
@@ -19939,7 +19939,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -20615,7 +20615,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -21121,7 +21121,7 @@ MonoBehaviour:
         Address: 0200000027000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.0037422408
@@ -21526,7 +21526,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -22202,7 +22202,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -22708,7 +22708,7 @@ MonoBehaviour:
         Address: 0200000028000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.0000032006824
@@ -23113,7 +23113,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -23789,7 +23789,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -24295,7 +24295,7 @@ MonoBehaviour:
         Address: 0200000029000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.0000009564682
@@ -24700,7 +24700,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -25376,7 +25376,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -25882,7 +25882,7 @@ MonoBehaviour:
         Address: 020000002a000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.000002293547
@@ -26287,7 +26287,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -26963,7 +26963,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -27469,7 +27469,7 @@ MonoBehaviour:
         Address: 020000002b000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.015742756
@@ -27874,7 +27874,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -28550,7 +28550,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -29056,7 +29056,7 @@ MonoBehaviour:
         Address: 020000002c000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.0000014942538
@@ -29461,7 +29461,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -30137,7 +30137,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -30643,7 +30643,7 @@ MonoBehaviour:
         Address: 020000002d000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.00000043375778
@@ -31048,7 +31048,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -31724,7 +31724,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -32230,7 +32230,7 @@ MonoBehaviour:
         Address: 020000002e000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.00000034207213
@@ -32635,7 +32635,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -33311,7 +33311,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -33817,7 +33817,7 @@ MonoBehaviour:
         Address: 020000002f000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.008953366
@@ -34222,7 +34222,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -34898,7 +34898,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -35404,7 +35404,7 @@ MonoBehaviour:
         Address: 0200000030000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.0000013067788
@@ -35809,7 +35809,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -36485,7 +36485,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -36991,7 +36991,7 @@ MonoBehaviour:
         Address: 0200000031000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.0000016563749
@@ -37396,7 +37396,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -38072,7 +38072,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -38578,7 +38578,7 @@ MonoBehaviour:
         Address: 0200000032000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.0000017121748
@@ -38983,7 +38983,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -39659,7 +39659,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -40165,7 +40165,7 @@ MonoBehaviour:
         Address: 0200000033000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.019468676
@@ -40570,7 +40570,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -41246,7 +41246,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -41752,7 +41752,7 @@ MonoBehaviour:
         Address: 0200000034000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.0000020405748
@@ -42157,7 +42157,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -42833,7 +42833,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -43339,7 +43339,7 @@ MonoBehaviour:
         Address: 0200000035000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.000002052071
@@ -43744,7 +43744,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -44420,7 +44420,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -44926,7 +44926,7 @@ MonoBehaviour:
         Address: 0200000036000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.0000016113951
@@ -45331,7 +45331,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -46007,7 +46007,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -46513,7 +46513,7 @@ MonoBehaviour:
         Address: 0200000005000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.036418937
@@ -46918,7 +46918,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -47594,7 +47594,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -48100,7 +48100,7 @@ MonoBehaviour:
         Address: 0200000006000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.02
@@ -48505,7 +48505,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -49181,7 +49181,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -49687,7 +49687,7 @@ MonoBehaviour:
         Address: 0200000007000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.006
@@ -50092,7 +50092,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -50768,7 +50768,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -51274,7 +51274,7 @@ MonoBehaviour:
         Address: 0200000008000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.0005551017
@@ -51679,7 +51679,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -52355,7 +52355,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -52861,7 +52861,7 @@ MonoBehaviour:
         Address: 0200000009000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.0014118927
@@ -53266,7 +53266,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -53942,7 +53942,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -54448,7 +54448,7 @@ MonoBehaviour:
         Address: 020000000a000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.0080108335
@@ -54853,7 +54853,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -55529,7 +55529,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -56035,7 +56035,7 @@ MonoBehaviour:
         Address: 020000000b000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 1.0829023e-10
@@ -56440,7 +56440,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -57116,7 +57116,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -57622,7 +57622,7 @@ MonoBehaviour:
         Address: 020000000c000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 8.1657486e-11
@@ -58027,7 +58027,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -58703,7 +58703,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -59209,7 +59209,7 @@ MonoBehaviour:
         Address: 020000000d000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 6.9821336e-11
@@ -59614,7 +59614,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -60290,7 +60290,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -60796,7 +60796,7 @@ MonoBehaviour:
         Address: 020000000e000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.0037407253
@@ -61201,7 +61201,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -61877,7 +61877,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -62383,7 +62383,7 @@ MonoBehaviour:
         Address: 020000000f000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 1.0926591e-10
@@ -62788,7 +62788,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -63464,7 +63464,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -63970,7 +63970,7 @@ MonoBehaviour:
         Address: 0200000010000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 8.553314e-11
@@ -64375,7 +64375,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -65051,7 +65051,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -65557,7 +65557,7 @@ MonoBehaviour:
         Address: 0200000011000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 5.095572e-11
@@ -65962,7 +65962,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -66638,7 +66638,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -67144,7 +67144,7 @@ MonoBehaviour:
         Address: 0200000012000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.01574237
@@ -67549,7 +67549,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -68225,7 +68225,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -68731,7 +68731,7 @@ MonoBehaviour:
         Address: 0200000013000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 6.919855e-11
@@ -69136,7 +69136,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -69812,7 +69812,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -70318,7 +70318,7 @@ MonoBehaviour:
         Address: 0200000014000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 4.0643756e-11
@@ -70723,7 +70723,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -71399,7 +71399,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -71905,7 +71905,7 @@ MonoBehaviour:
         Address: 0200000015000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 2.9842794e-15
@@ -72310,7 +72310,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -72986,7 +72986,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -73492,7 +73492,7 @@ MonoBehaviour:
         Address: 0200000016000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.008947383
@@ -73897,7 +73897,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -74573,7 +74573,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -75079,7 +75079,7 @@ MonoBehaviour:
         Address: 0200000017000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 1.0354199e-10
@@ -75484,7 +75484,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -76160,7 +76160,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -76666,7 +76666,7 @@ MonoBehaviour:
         Address: 0200000018000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 7.266152e-11
@@ -77071,7 +77071,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -77747,7 +77747,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -78253,7 +78253,7 @@ MonoBehaviour:
         Address: 0200000019000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 5.2296372e-11
@@ -78658,7 +78658,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -79334,7 +79334,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -79840,7 +79840,7 @@ MonoBehaviour:
         Address: 020000001a000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.01946528
@@ -80245,7 +80245,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -80921,7 +80921,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -81427,7 +81427,7 @@ MonoBehaviour:
         Address: 020000001b000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 2.1316282e-16
@@ -81832,7 +81832,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -82508,7 +82508,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -83014,7 +83014,7 @@ MonoBehaviour:
         Address: 020000001c000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 2.1316282e-16
@@ -83419,7 +83419,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -84095,7 +84095,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -84601,7 +84601,7 @@ MonoBehaviour:
         Address: 020000001d000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 1.0658141e-16
@@ -85006,7 +85006,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -85682,7 +85682,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -86188,7 +86188,7 @@ MonoBehaviour:
         Address: 
         Length: 0
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.018792242
@@ -86593,7 +86593,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -87269,7 +87269,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 0.06
@@ -87775,7 +87775,7 @@ MonoBehaviour:
         Address: 
         Length: 0
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.5473849
@@ -88180,7 +88180,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -88856,7 +88856,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -89362,7 +89362,7 @@ MonoBehaviour:
         Address: 020000003b000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 1.5124755
@@ -89767,7 +89767,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -90443,7 +90443,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -90949,7 +90949,7 @@ MonoBehaviour:
         Address: 
         Length: 0
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0
@@ -91354,7 +91354,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -92030,7 +92030,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -92536,7 +92536,7 @@ MonoBehaviour:
         Address: 0200000039000000
         Length: 2
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 0.45155632
@@ -92941,7 +92941,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -93617,7 +93617,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -94123,7 +94123,7 @@ MonoBehaviour:
         Address: 
         Length: 0
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: 2.4508643
@@ -94528,7 +94528,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -95204,7 +95204,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 1
@@ -95710,7 +95710,7 @@ MonoBehaviour:
         Address: 
         Length: 0
     LocalPositionSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
         valueInternal: -0.29003972
@@ -96115,7 +96115,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalRotationSelected:
-      valueInternal: 1
+      valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     - valueInternal: 0
@@ -96791,7 +96791,7 @@ MonoBehaviour:
             WeightedMode:
               valueInternal: 0
     LocalScaleSelected:
-      valueInternal: 1
+      valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
         valueInternal: 0.17265694
