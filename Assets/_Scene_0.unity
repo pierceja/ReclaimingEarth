@@ -795,7 +795,6 @@ GameObject:
   - component: {fileID: 395401053}
   - component: {fileID: 395401052}
   - component: {fileID: 395401051}
-  - component: {fileID: 395401050}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -803,13 +802,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &395401050
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 395401049}
-  m_Enabled: 1
 --- !u!124 &395401051
 Behaviour:
   m_ObjectHideFlags: 0
@@ -988,6 +980,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1178,6 +1174,7 @@ GameObject:
   - component: {fileID: 696956489}
   - component: {fileID: 696956488}
   - component: {fileID: 696956487}
+  - component: {fileID: 696956491}
   m_Layer: 0
   m_Name: RedCylinder
   m_TagString: Untagged
@@ -1252,6 +1249,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &696956491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696956486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2087e3890e69a3841bb1f76ba4ea39cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &792272194
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,6 +2209,7 @@ GameObject:
   - component: {fileID: 1431088679}
   - component: {fileID: 1431088678}
   - component: {fileID: 1431088677}
+  - component: {fileID: 1431088681}
   m_Layer: 0
   m_Name: YellowCylinder
   m_TagString: Untagged
@@ -2275,6 +2284,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1431088681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1431088676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2087e3890e69a3841bb1f76ba4ea39cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1507832326
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2527,7 @@ GameObject:
   - component: {fileID: 1697891343}
   - component: {fileID: 1697891342}
   - component: {fileID: 1697891341}
+  - component: {fileID: 1697891345}
   m_Layer: 0
   m_Name: BlueCylinder
   m_TagString: Untagged
@@ -2581,6 +2602,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1697891345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1697891340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2087e3890e69a3841bb1f76ba4ea39cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1783135353
 GameObject:
   m_ObjectHideFlags: 0
@@ -2852,6 +2884,7 @@ GameObject:
   - component: {fileID: 1897446889}
   - component: {fileID: 1897446888}
   - component: {fileID: 1897446887}
+  - component: {fileID: 1897446891}
   m_Layer: 0
   m_Name: GreenCylinder
   m_TagString: Untagged
@@ -2926,6 +2959,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1897446891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1897446886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2087e3890e69a3841bb1f76ba4ea39cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2029612467
 GameObject:
   m_ObjectHideFlags: 0
