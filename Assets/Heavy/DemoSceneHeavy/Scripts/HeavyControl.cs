@@ -23,8 +23,6 @@ public class HeavyController : MonoBehaviour {
 		animator.SetBool ("Walk", false);
 		animator.SetBool ("SprintJump", false);
 		animator.SetBool ("PlayerFound", false);
-	
-
 	}
 
 	public void Walk ()
