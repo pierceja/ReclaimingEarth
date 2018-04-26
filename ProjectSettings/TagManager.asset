@@ -4,7 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Beam
+  - AlarmLight
+  - Enemy
+  - MainLight
+  - Fader
+  - WayPoint
+  - Siren
+  - Alarm
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -14,8 +21,8 @@ TagManager:
   - UI
   - 
   - 
-  - SpawnPoint
-  - 
+  - PlayArea
+  - Extents
   - 
   - 
   - 
