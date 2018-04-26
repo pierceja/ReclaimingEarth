@@ -45,6 +45,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool walking = false;
         private bool running = false;
         private bool idle = true;
+        private bool left = true;
+        private bool right = true;
 
         // Use this for initialization
         private void Start()
@@ -91,6 +93,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             animator.SetBool("Walking", walking);
             animator.SetBool("Running", running);
             animator.SetBool("Idle", idle);
+            animator.SetBool("Left", left);
+            animator.SetBool("Right", right);
         }
 
 
@@ -222,7 +226,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 #if !MOBILE_INPUT
             // On standalone builds, walk/run speed is modified by a key press.
             // keep track of whether or not the character is walking or running
-            m_IsWalking = !Input.GetKey(KeyCode.LeftShift);
+            running = Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.W);
+            m_IsWalking = !running;
 #endif
             // set the desired speed to be walking or running
             speed = m_IsWalking ? m_WalkSpeed : m_RunSpeed;
@@ -243,22 +248,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             walking = false;
-            running = false;
             idle = false;
-            if (isMoving())
+            left = false;
+            right = false;
+            if (!running)
             {
-                if (m_IsWalking)
+                if (Input.GetKey(KeyCode.A))
+                    left = true;
+                else if (Input.GetKey(KeyCode.D))
+                    right = true;
+                else if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
                     walking = true;
                 else
-                    running = true;
+                    idle = true;
             }
-            else
-                idle = true;
-        }
-
-        private bool isMoving()
-        {
-            return Input.GetKey(KeyCode.W);//|| Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.DownArrow);
         }
 
         private void RotateView()
