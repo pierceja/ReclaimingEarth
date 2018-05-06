@@ -38,7 +38,7 @@ public class NetworkManager : MonoBehaviour
     void StartSpawnProcess(float respawnTime)
     {
         sceneCamera.enabled = true;
-        StartCoroutine("SpawnPlayer", respawnTime);
+        sStartCoroutine("SpawnPlayer", respawnTime);
     }
 
     IEnumerator SpawnPlayer(float respawnTime)
