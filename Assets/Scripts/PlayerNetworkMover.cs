@@ -18,6 +18,9 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
     bool idle = true;
     bool walking = false;
     bool running = false;
+    bool left = false;
+    bool right = false;
+    bool jump = false;
 
     void Start()
     {
@@ -43,6 +46,9 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
             anim.SetBool("Idle", idle);
             anim.SetBool("Walking", walking);
             anim.SetBool("Running", running);
+            anim.SetBool("Left", left);
+            anim.SetBool("Right", right);
+            anim.SetBool("Jump", jump);
             yield return null;
         }
     }
@@ -57,6 +63,9 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
             stream.SendNext(anim.GetBool("Idle"));
             stream.SendNext(anim.GetBool("Walking"));
             stream.SendNext(anim.GetBool("Running"));
+            stream.SendNext(anim.GetBool("Left"));
+            stream.SendNext(anim.GetBool("Right"));
+            stream.SendNext(anim.GetBool("Jump"));
         }
         else
         {
@@ -66,6 +75,9 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
             idle = (bool)stream.ReceiveNext();
             walking = (bool)stream.ReceiveNext();
             running = (bool)stream.ReceiveNext();
+            left = (bool)stream.ReceiveNext();
+            right = (bool)stream.ReceiveNext();
+            jump = (bool)stream.ReceiveNext();
         }
     }
 
