@@ -98,7 +98,7 @@ public class Shoot_assult : MonoBehaviour {
                                                        firePosition.position,
                                                        transform.parent.rotation * errorRotation);
                 bulletsInClip--;
-                print(bulletsInClip);
+                //print(bulletsInClip);
 
 
                 if (shoot == null)
@@ -189,7 +189,7 @@ public class Shoot_assult : MonoBehaviour {
                                                            transform.parent.rotation*errorRotation);
                     bulletsInClip--;
                     bulletsFired++;
-                    print(bulletsInClip);
+                    //print(bulletsInClip);
                     //print(bulletsFired);
                     if ((bulletsFired >= 3) && burst)
                     {
