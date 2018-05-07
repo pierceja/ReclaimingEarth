@@ -18,14 +18,17 @@ public class Shoot_assult : MonoBehaviour {
     float bulletsInClip;
     float angleRadDown;
     float angleRadUp;
-
-    AudioSource shoot;
+    Vector2 error;
+    Quaternion errorRotation;
+    AudioSource[] shoot;
 
     void Start()
     {
         angleRadDown = (float)(-accuracy / 180.0) * (float)Mathf.PI;
         angleRadUp = (float)(accuracy / 180.0) * (float)Mathf.PI;
-        bulletsInClip = 60;
+        bulletsInClip = clipSize;
+        Vector2 error = Random.insideUnitCircle * accuracy;
+        Quaternion errorRotation = Quaternion.Euler(error.x, error.y, 0);
     }
 
     //Control three round burst
@@ -61,10 +64,11 @@ public class Shoot_assult : MonoBehaviour {
             burst = false;
         } else if (Input.GetKeyDown("r"))
         {
-            if (bulletsInClip != 60)
+            if (bulletsInClip != clipSize)
             {
-                bulletsInClip = 60;
+                bulletsInClip = clipSize;
                 print("RELOADED");
+                shoot[2].Play();
             }
         }
 
@@ -88,23 +92,24 @@ public class Shoot_assult : MonoBehaviour {
                 muzzleFlash.transform.position = firePosition.position;
                 muzzleFlash.transform.rotation = firePosition.rotation;
 
-      
+                error = Random.insideUnitCircle * accuracy;
+                errorRotation = Quaternion.Euler(error.x, error.y, 0);
                 GameObject g = (GameObject)Instantiate(bulletPrefab,
                                                        firePosition.position,
-                                                       transform.parent.rotation);
+                                                       transform.parent.rotation * errorRotation);
                 bulletsInClip--;
                 print(bulletsInClip);
 
 
                 if (shoot == null)
                 {
-                    shoot = g.GetComponent<AudioSource>();
-                    shoot.loop = false;
+                    shoot = GetComponents<AudioSource>();
+                    shoot[0].loop = false;
                 }
                 else
                 {
 
-                    shoot.Play();
+                    shoot[0].Play();
                 }
 
 
@@ -112,40 +117,45 @@ public class Shoot_assult : MonoBehaviour {
                 // AddForce method
                 // (requires the rocket to have a rigidbody attached to it)
                 float force = g.GetComponent<Bullet>().speed;
+                g.GetComponent<Rigidbody>().AddForce(g.transform.forward * force);
 
-                float shootAngle = Random.Range(0, 100);
+                //    float shootAngle = Random.Range(0, 100);
 
-                if (shootAngle <= 15.0)
-                {
-                    g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadUp) * g.transform.up + Mathf.Cos(angleRadUp) * g.transform.forward) * force);
-                }
-                else if (shootAngle > 15.0 && shootAngle <= 30.0)
-                {
-                    g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadDown) * g.transform.up + Mathf.Cos(angleRadDown) * g.transform.forward) * force);
-                }
-                else if (shootAngle > 30.0 && shootAngle <= 45.0)
-                {
-                    g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadUp) * g.transform.right + Mathf.Cos(angleRadUp) * g.transform.forward) * force);
-                }
-                else if (shootAngle > 45.0 && shootAngle <= 60.0)
-                {
-                    g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadDown) * g.transform.right + Mathf.Cos(angleRadDown) * g.transform.forward) * force);
-                }
-                else
-                {
-                    g.GetComponent<Rigidbody>().AddForce(g.transform.forward * force);
-                }
+                //    if (shootAngle <= 15.0)
+                //    {
+                //        g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadUp) * g.transform.up + Mathf.Cos(angleRadUp) * g.transform.forward) * force);
+                //    }
+                //    else if (shootAngle > 15.0 && shootAngle <= 30.0)
+                //    {
+                //        g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadDown) * g.transform.up + Mathf.Cos(angleRadDown) * g.transform.forward) * force);
+                //    }
+                //    else if (shootAngle > 30.0 && shootAngle <= 45.0)
+                //    {
+                //        g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadUp) * g.transform.right + Mathf.Cos(angleRadUp) * g.transform.forward) * force);
+                //    }
+                //    else if (shootAngle > 45.0 && shootAngle <= 60.0)
+                //    {
+                //        g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadDown) * g.transform.right + Mathf.Cos(angleRadDown) * g.transform.forward) * force);
+                //    }
+                //    else
+                //    {
+                //        g.GetComponent<Rigidbody>().AddForce(g.transform.forward * force);
+                //    }
 
             }
+        }
+        else if (Input.GetMouseButtonDown(0) && (bulletsInClip <= 0))
+        {
+            shoot[1].Play();
         }
         else
         {
             //Remove muzzleflash if not firing
             Destroy(muzzleFlash);
-            if (shoot != null)
-            {
-                shoot.Stop();
-            }
+            // if (shoot != null)
+            //   {
+            //     shoot.Stop();
+            // }
         }
 
         // left mouse clicked?
@@ -172,9 +182,11 @@ public class Shoot_assult : MonoBehaviour {
                     muzzleFlash.transform.position = firePosition.position;
                     muzzleFlash.transform.rotation = firePosition.rotation;
 
+                    error = Random.insideUnitCircle * accuracy;
+                    errorRotation = Quaternion.Euler(error.x, error.y, 0);
                     GameObject g = (GameObject)Instantiate(bulletPrefab,
                                                            firePosition.position,
-                                                           transform.parent.rotation);
+                                                           transform.parent.rotation*errorRotation);
                     bulletsInClip--;
                     bulletsFired++;
                     print(bulletsInClip);
@@ -187,13 +199,13 @@ public class Shoot_assult : MonoBehaviour {
 
                     if (shoot == null)
                     {
-                        shoot = g.GetComponent<AudioSource>();
-                        shoot.loop = false;
+                        shoot = GetComponents<AudioSource>();
+                        shoot[0].loop = false;
                     }
                     else
                     {
 
-                        shoot.Play();
+                        shoot[0].Play();
                     }
 
 
@@ -201,29 +213,30 @@ public class Shoot_assult : MonoBehaviour {
                     // AddForce method
                     // (requires the rocket to have a rigidbody attached to it)
                     float force = g.GetComponent<Bullet>().speed;
+                    g.GetComponent<Rigidbody>().AddForce(g.transform.forward * force);
 
-                    float shootAngle = Random.Range(0, 100);
+                    //float shootAngle = Random.Range(0, 100);
 
-                    if (shootAngle <= 15.0)
-                    {
-                        g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadUp) * g.transform.up + Mathf.Cos(angleRadUp) * g.transform.forward) * force);
-                    }
-                    else if (shootAngle > 15.0 && shootAngle <= 30.0)
-                    {
-                        g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadDown) * g.transform.up + Mathf.Cos(angleRadDown) * g.transform.forward) * force);
-                    }
-                    else if (shootAngle > 30.0 && shootAngle <= 45.0)
-                    {
-                        g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadUp) * g.transform.right + Mathf.Cos(angleRadUp) * g.transform.forward) * force);
-                    }
-                    else if (shootAngle > 45.0 && shootAngle <= 60.0)
-                    {
-                        g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadDown) * g.transform.right + Mathf.Cos(angleRadDown) * g.transform.forward) * force);
-                    }
-                    else
-                    {
-                        g.GetComponent<Rigidbody>().AddForce(g.transform.forward * force);
-                    }
+                    //if (shootAngle <= 15.0)
+                    //{
+                    //    g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadUp) * g.transform.up + Mathf.Cos(angleRadUp) * g.transform.forward) * force);
+                    //}
+                    //else if (shootAngle > 15.0 && shootAngle <= 30.0)
+                    //{
+                    //    g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadDown) * g.transform.up + Mathf.Cos(angleRadDown) * g.transform.forward) * force);
+                    //}
+                    //else if (shootAngle > 30.0 && shootAngle <= 45.0)
+                    //{
+                    //    g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadUp) * g.transform.right + Mathf.Cos(angleRadUp) * g.transform.forward) * force);
+                    //}
+                    //else if (shootAngle > 45.0 && shootAngle <= 60.0)
+                    //{
+                    //    g.GetComponent<Rigidbody>().AddForce((Mathf.Sin(angleRadDown) * g.transform.right + Mathf.Cos(angleRadDown) * g.transform.forward) * force);
+                    //}
+                    //else
+                    //{
+                    //    g.GetComponent<Rigidbody>().AddForce(g.transform.forward * force);
+                    //}
 
                 }
 
@@ -231,15 +244,15 @@ public class Shoot_assult : MonoBehaviour {
             }
 
 
-        }
+        } 
         else
         {
             //Remove muzzleflash if not firing
             Destroy(muzzleFlash);
-            if (shoot != null)
-            {
-                shoot.Stop();
-            }
+          //  if (shoot != null)
+          //  {
+           //     shoot.Stop();
+           // }
         }
     }
 }
