@@ -177,9 +177,10 @@ GameObject:
   - component: {fileID: 82880091917426168}
   - component: {fileID: 114729755718817776}
   - component: {fileID: 114074133424273918}
+  - component: {fileID: 136538021099398160}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3678,7 +3679,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1368573207479642}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 318279e60cfb0d94e9fbfe5927318640, type: 3}
   m_Name: 
@@ -3714,8 +3715,8 @@ MonoBehaviour:
   - {fileID: 114074133424273918}
   - {fileID: 0}
   ObservedComponentsFoldoutOpen: 1
-  viewIdField: 1
-  instantiationId: 1
+  viewIdField: 0
+  instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
 --- !u!124 &124929967097799780
@@ -3725,6 +3726,19 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1599139917177408}
   m_Enabled: 1
+--- !u!136 &136538021099398160
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1099269573454848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &137034107059748380
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

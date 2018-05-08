@@ -83,9 +83,9 @@ public class Shoot_assult : MonoBehaviour {
             {
                 if (muzzleFlash == null)
                 {
-                    muzzleFlash = Instantiate(shootingPrefab,
+                    muzzleFlash = PhotonNetwork.Instantiate("MuzzleFlash",
                             firePosition.position,
-                            Quaternion.identity);
+                            Quaternion.identity, 0);
                 }
 
                 //Update position and rotation with firePosition
@@ -94,9 +94,9 @@ public class Shoot_assult : MonoBehaviour {
 
                 error = Random.insideUnitCircle * accuracy;
                 errorRotation = Quaternion.Euler(error.x, error.y, 0);
-                GameObject g = (GameObject)Instantiate(bulletPrefab,
+                GameObject g = PhotonNetwork.Instantiate("Assultbullet",
                                                        firePosition.position,
-                                                       transform.parent.rotation * errorRotation);
+                                                       transform.parent.rotation * errorRotation, 0);
                 bulletsInClip--;
                 //print(bulletsInClip);
 
@@ -173,9 +173,9 @@ public class Shoot_assult : MonoBehaviour {
                     lastFired = Time.time;
                     if (muzzleFlash == null)
                     {
-                        muzzleFlash = Instantiate(shootingPrefab,
+                        muzzleFlash = PhotonNetwork.Instantiate("MuzzleFlash",
                                 firePosition.position,
-                                Quaternion.identity);
+                                Quaternion.identity, 0);
                     }
 
                     //Update position and rotation with firePosition
@@ -184,9 +184,9 @@ public class Shoot_assult : MonoBehaviour {
 
                     error = Random.insideUnitCircle * accuracy;
                     errorRotation = Quaternion.Euler(error.x, error.y, 0);
-                    GameObject g = (GameObject)Instantiate(bulletPrefab,
+                    GameObject g = PhotonNetwork.Instantiate("Assultbullet",
                                                            firePosition.position,
-                                                           transform.parent.rotation*errorRotation);
+                                                           transform.parent.rotation*errorRotation, 0);
                     bulletsInClip--;
                     bulletsFired++;
                     //print(bulletsInClip);

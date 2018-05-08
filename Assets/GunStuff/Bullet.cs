@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour {
     float sparkTime = -100;
     GameObject spark;
     float startTime;
+    float damage = 35f;
 
     // The fly speed (used by the weapon later)
     public float speed = 2000.0f;
@@ -26,13 +27,20 @@ public class Bullet : MonoBehaviour {
     // find out when it hit something
     void OnCollisionEnter(Collision c)
     {
-        if (c.gameObject.tag != "Bullet")
+        if (c.gameObject.tag == "Player")
         {
-            spark = Instantiate(explosionPrefab,
-                        transform.position,
-                        Quaternion.identity);
+            print("hit player");
+            Destroy(gameObject);
+            //c.gameObject.transform.GetComponent().RPC("GetShot", PhotonTargets.All, damage)
+        }
+        else if (c.gameObject.tag != "Bullet")
+        {
+            //spark = Instantiate(explosionPrefab,
+             //           transform.position,
+            //            Quaternion.identity);
 
             sparkTime = 0f;
+            Destroy(gameObject);
         }
         
 
