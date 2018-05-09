@@ -16,6 +16,8 @@ public class VertFire : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             // add a sound here if wanted
+            AudioSource fire = GetComponent<AudioSource>();
+            fire.Play();
             animatorComp.SetTrigger("FireVert");
         }
 		
