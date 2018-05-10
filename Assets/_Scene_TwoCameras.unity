@@ -113,6 +113,130 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &51103670
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1351937096059768, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 51103671}
+  m_Layer: 0
+  m_Name: RightHandRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &51103671
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4150228439916526, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51103670}
+  m_LocalRotation: {x: -0.04721726, y: -0.06259736, z: 0.028754195, w: 0.9965066}
+  m_LocalPosition: {x: 7.266152e-11, y: -5.32907e-16, z: -0.033000086}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 476871422}
+  m_Father: {fileID: 1964109137}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &65902703
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1723796973149448, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 65902704}
+  m_Layer: 0
+  m_Name: RightHandIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &65902704
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4707344910570224, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 65902703}
+  m_LocalRotation: {x: -0.00009158808, y: -0.5844229, z: 0.064183846, w: 0.80890685}
+  m_LocalPosition: {x: 1.0829023e-10, y: -1.0658141e-16, z: -0.03680697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1606873088}
+  m_Father: {fileID: 789209675}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &69099089
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1444999999715482, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 69099090}
+  m_Layer: 0
+  m_Name: RightHandThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &69099090
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4874532764416306, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 69099089}
+  m_LocalRotation: {x: -0.14677958, y: -0.547571, z: -0.320125, w: 0.75904006}
+  m_LocalPosition: {x: 2.1316282e-16, y: 1.1889902e-10, z: -0.041263513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2110539393}
+  m_Father: {fileID: 1481160299}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &93951254
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1993769700322420, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 93951255}
+  m_Layer: 0
+  m_Name: LeftHandRing2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &93951255
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4443234765522966, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 93951254}
+  m_LocalRotation: {x: -0.0262573, y: -0.31984267, z: 0.05662787, w: 0.9454124}
+  m_LocalPosition: {x: 0.0000013067788, y: -0.000000032336246, z: 0.039874908}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1203796541}
+  m_Father: {fileID: 838446017}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &113116270
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,6 +785,37 @@ Transform:
   m_Father: {fileID: 129983341}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &173055559
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1983084791605642, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 173055560}
+  m_Layer: 0
+  m_Name: RightArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &173055560
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4054510612763482, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 173055559}
+  m_LocalRotation: {x: 0.17199577, y: -0.6543597, z: -0.07241327, w: 0.7327941}
+  m_LocalPosition: {x: 0.02, y: -5.3290704e-17, z: -0.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1983167226}
+  m_Father: {fileID: 1570758911}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &214478082
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,6 +877,102 @@ Transform:
   - {fileID: 776706194}
   m_Father: {fileID: 1450890306}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &253325113
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1450452514591878, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 253325114}
+  m_Layer: 0
+  m_Name: RightHandThumb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &253325114
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4136878013175672, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 253325113}
+  m_LocalRotation: {x: -2.4230772e-16, y: -1.6653345e-16, z: 4.754676e-17, w: 1}
+  m_LocalPosition: {x: 1.0658141e-16, y: 1.0372865e-10, z: -0.030563924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2110539393}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &272509067
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1067127856850312, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 272509068}
+  m_Layer: 0
+  m_Name: LeftHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272509068
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4463511849881044, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 272509067}
+  m_LocalRotation: {x: -0.009938946, y: -0.04332663, z: -0.10900237, w: 0.9930471}
+  m_LocalPosition: {x: 0.001406283, y: -0.002404637, z: 0.16450104}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1638925346}
+  - {fileID: 1613969123}
+  - {fileID: 750928243}
+  - {fileID: 838446017}
+  - {fileID: 272925216}
+  m_Father: {fileID: 573682652}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &272925215
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1659814605972702, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 272925216}
+  m_Layer: 0
+  m_Name: LeftHandThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272925216
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4200040323732074, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 272925215}
+  m_LocalRotation: {x: 0.17595452, y: 0.11367791, z: -0.49831104, w: 0.84131056}
+  m_LocalPosition: {x: -0.019468676, y: -0.04508916, z: 0.034433443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 855510191}
+  m_Father: {fileID: 272509068}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &294055075
 GameObject:
@@ -847,6 +1098,36 @@ Transform:
   m_Father: {fileID: 1183306514}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &389274127
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1036557951389850, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 389274128}
+  m_Layer: 0
+  m_Name: RightHandPinky4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &389274128
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4868200041540256, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 389274127}
+  m_LocalRotation: {x: 1.1690993e-36, y: -4.967487e-18, z: 2.3535023e-19, w: 1}
+  m_LocalPosition: {x: 2.9842794e-15, y: -7.105427e-17, z: -0.02269136}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1255708969}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &393367767
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +1191,37 @@ Transform:
   m_Father: {fileID: 214478083}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &407746028
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1645642753932206, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 407746029}
+  m_Layer: 0
+  m_Name: LeftHandIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &407746029
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4616767322700016, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 407746028}
+  m_LocalRotation: {x: -0.029364977, y: -0.15099171, z: 0.057072338, w: 0.9864492}
+  m_LocalPosition: {x: -0.000005049208, y: 0.0000017879488, z: 0.03680917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1733995748}
+  m_Father: {fileID: 1638925346}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &425534741
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,6 +1250,68 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1066934634}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &425807877
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1575299005880214, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 425807878}
+  m_Layer: 0
+  m_Name: LeftHandPinky3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &425807878
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4835415002013840, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 425807877}
+  m_LocalRotation: {x: -0.030653603, y: -0.23290749, z: 0.031036444, w: 0.9715201}
+  m_LocalPosition: {x: 0.00000043375778, y: 0.0000005080732, z: 0.023044119}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1563738118}
+  m_Father: {fileID: 1343837979}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &427128664
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1593154319596802, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 427128665}
+  m_Layer: 0
+  m_Name: RightForearmRoll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &427128665
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4283620909860414, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 427128664}
+  m_LocalRotation: {x: 0.013167012, y: -0.06769126, z: 0.0014451281, w: 0.9976184}
+  m_LocalPosition: {x: -0.0005551017, y: 0.003913845, z: -0.14477387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1898235797}
+  m_Father: {fileID: 1983167226}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &430396092
@@ -971,6 +1345,67 @@ Transform:
   m_Father: {fileID: 304600983}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &462280984
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1639581370982720, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 462280985}
+  m_Layer: 0
+  m_Name: Reference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &462280985
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4795066339042424, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 462280984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.000024587227, y: 0.00025768767, z: -0.0010412141}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2018362630}
+  m_Father: {fileID: 876424018}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &476871421
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1400404821078808, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 476871422}
+  m_Layer: 0
+  m_Name: RightHandRing4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476871422
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4033296927214836, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 476871421}
+  m_LocalRotation: {x: 8.326673e-17, y: 1.0879626e-17, z: 1.1546305e-17, w: 1}
+  m_LocalPosition: {x: 5.2296372e-11, y: 2.664535e-16, z: -0.031830598}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 51103671}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &483456241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1435,71 @@ Transform:
   m_Children:
   - {fileID: 552082488}
   m_Father: {fileID: 829680941}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &484967411
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1583359489118474, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 484967412}
+  m_Layer: 0
+  m_Name: RightHandMiddle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484967412
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4252224861211028, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 484967411}
+  m_LocalRotation: {x: -0.029693559, y: -0.21638252, z: 0.04096792, w: 0.9749967}
+  m_LocalPosition: {x: 1.0926591e-10, y: -5.684342e-16, z: -0.039236255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1627324997}
+  m_Father: {fileID: 788560234}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &496513627 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+  m_PrefabInternal: {fileID: 2145584008}
+--- !u!1 &501635179
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1074945632407374, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 501635180}
+  m_Layer: 0
+  m_Name: Neutre
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &501635180
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4732781851678630, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 501635179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 575584241}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &537416780
@@ -1153,6 +1653,169 @@ Transform:
   m_Father: {fileID: 1256196933}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &573682651
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1449708572202398, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 573682652}
+  m_Layer: 0
+  m_Name: LeftForearmRoll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &573682652
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4813739038066646, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573682651}
+  m_LocalRotation: {x: 0.00923874, y: -0.06596859, z: 0.093229234, w: 0.99341387}
+  m_LocalPosition: {x: 0.00056, y: -0.00391, z: 0.14477}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 272509068}
+  m_Father: {fileID: 1462145189}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &575584240
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1279728942682532, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 575584241}
+  - component: {fileID: 575584242}
+  m_Layer: 0
+  m_Name: ArmsSleeve
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &575584241
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4357181701254562, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 575584240}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 501635180}
+  m_Father: {fileID: 876424018}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &575584242
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 137998480051640342, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 575584240}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8ee2b96cb5798094f80aec33b78127c5, type: 3}
+  - {fileID: 2100002, guid: 8ee2b96cb5798094f80aec33b78127c5, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 8ee2b96cb5798094f80aec33b78127c5, type: 3}
+  m_Bones:
+  - {fileID: 462280985}
+  - {fileID: 2018362630}
+  - {fileID: 1570758911}
+  - {fileID: 173055560}
+  - {fileID: 1983167226}
+  - {fileID: 427128665}
+  - {fileID: 1898235797}
+  - {fileID: 1481160299}
+  - {fileID: 69099090}
+  - {fileID: 2110539393}
+  - {fileID: 253325114}
+  - {fileID: 789209675}
+  - {fileID: 65902704}
+  - {fileID: 1606873088}
+  - {fileID: 1202923632}
+  - {fileID: 788560234}
+  - {fileID: 484967412}
+  - {fileID: 1627324997}
+  - {fileID: 1860224874}
+  - {fileID: 1761083007}
+  - {fileID: 1964109137}
+  - {fileID: 51103671}
+  - {fileID: 476871422}
+  - {fileID: 1737136694}
+  - {fileID: 811177551}
+  - {fileID: 1255708969}
+  - {fileID: 389274128}
+  - {fileID: 1473055565}
+  - {fileID: 919996270}
+  - {fileID: 1462145189}
+  - {fileID: 573682652}
+  - {fileID: 272509068}
+  - {fileID: 272925216}
+  - {fileID: 855510191}
+  - {fileID: 1020403670}
+  - {fileID: 1877115811}
+  - {fileID: 1638925346}
+  - {fileID: 407746029}
+  - {fileID: 1733995748}
+  - {fileID: 1531270996}
+  - {fileID: 1613969123}
+  - {fileID: 1581524362}
+  - {fileID: 1157565324}
+  - {fileID: 1468893192}
+  - {fileID: 838446017}
+  - {fileID: 93951255}
+  - {fileID: 1203796541}
+  - {fileID: 1807805479}
+  - {fileID: 750928243}
+  - {fileID: 1343837979}
+  - {fileID: 425807878}
+  - {fileID: 1563738118}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 462280985}
+  m_AABB:
+    m_Center: {x: 0.0006416738, y: -0.0218212, z: 0.100559205}
+    m_Extent: {x: 0.9138603, y: 0.17974108, z: 0.2156722}
+  m_DirtyAABB: 0
 --- !u!1 &613938573
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,6 +2098,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &750928242
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1538571191227762, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 750928243}
+  m_Layer: 0
+  m_Name: LeftHandPinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &750928243
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4755053533998794, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750928242}
+  m_LocalRotation: {x: 0.047668114, y: -0.5477918, z: 0.11547008, w: 0.8272355}
+  m_LocalPosition: {x: -0.015742756, y: 0.049139645, z: 0.10982241}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1343837979}
+  m_Father: {fileID: 272509068}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &776706193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,56 +2161,99 @@ Transform:
   m_Father: {fileID: 219185942}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &809737918
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 964522145}
-    m_Modifications:
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.5499644
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 3.078086
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -46.770668
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0.09916675
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0.35808083
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0.038280614
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -0.9276199
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 1da8c9a144bbe224b8d16395bcbde6d2, type: 2}
-  m_IsPrefabParent: 0
+--- !u!1 &788560233
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1356407247175968, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 788560234}
+  m_Layer: 0
+  m_Name: RightHandMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &788560234
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4903125918055486, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788560233}
+  m_LocalRotation: {x: 0.0803155, y: -0.7848621, z: 0.055668857, w: 0.61191666}
+  m_LocalPosition: {x: 0.0037407253, y: 0.010605959, z: -0.12462928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 484967412}
+  m_Father: {fileID: 1898235797}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &789209674
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1285875601259038, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 789209675}
+  m_Layer: 0
+  m_Name: RightHandIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &789209675
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4839263639378600, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 789209674}
+  m_LocalRotation: {x: 0.027374059, y: 0.10071235, z: -0.013468522, w: 0.99444777}
+  m_LocalPosition: {x: 0.0080108335, y: 0.0405882, z: -0.122026406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 65902704}
+  m_Father: {fileID: 1898235797}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &811177550
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1567423161582148, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 811177551}
+  m_Layer: 0
+  m_Name: RightHandPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &811177551
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4205227961111162, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 811177550}
+  m_LocalRotation: {x: -0.0698834, y: -0.29478186, z: 0.08347622, w: 0.9493428}
+  m_LocalPosition: {x: 6.919855e-11, y: -8.704148e-16, z: -0.026215442}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1255708969}
+  m_Father: {fileID: 1737136694}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &818773889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,6 +2347,37 @@ Transform:
   m_Father: {fileID: 1070590941}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &838446016
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1635229154156600, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 838446017}
+  m_Layer: 0
+  m_Name: LeftHandRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &838446017
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4076470529985436, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 838446016}
+  m_LocalRotation: {x: 0.0355239, y: -0.48632374, z: 0.09279783, w: 0.86811054}
+  m_LocalPosition: {x: -0.008953366, y: 0.020218806, z: 0.11833946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 93951255}
+  m_Father: {fileID: 272509068}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &842427004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,6 +2440,37 @@ Transform:
   m_Father: {fileID: 837860266}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &855510190
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1249614456640220, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 855510191}
+  m_Layer: 0
+  m_Name: LeftHandThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &855510191
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4016231690044570, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 855510190}
+  m_LocalRotation: {x: -0.11065708, y: 0.022870505, z: -0.23386598, w: 0.9656805}
+  m_LocalPosition: {x: 0.0000020405748, y: 0.0000021608864, z: 0.041262697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1020403670}
+  m_Father: {fileID: 272925216}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &865608680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,6 +2502,776 @@ Transform:
   m_Father: {fileID: 2062624805}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &876424017
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1862499574655214, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 876424018}
+  - component: {fileID: 876424023}
+  - component: {fileID: 876424022}
+  - component: {fileID: 876424021}
+  - component: {fileID: 876424020}
+  - component: {fileID: 876424019}
+  - component: {fileID: 876424024}
+  m_Layer: 0
+  m_Name: FpsArmsLow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &876424018
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4768251100428782, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876424017}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 575584241}
+  - {fileID: 462280985}
+  m_Father: {fileID: 1091396056}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &876424019
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 114236772738176692, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876424017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a72a679e952ed84087818a004d339f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!81 &876424020
+AudioListener:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 81906912574923380, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876424017}
+  m_Enabled: 1
+--- !u!82 &876424021
+AudioSource:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 82183521109605334, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876424017}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 97375124931f1c64a8cd5edac5cc3c05, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &876424022
+AudioSource:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 82570269656698926, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876424017}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bea947cb8793c4345889f2bc284f1755, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!95 &876424023
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 95536029868099288, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876424017}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 8ee2b96cb5798094f80aec33b78127c5, type: 3}
+  m_Controller: {fileID: 9100000, guid: b96344b69eb3652488a6242b96017e7e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &876424024
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876424017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 834953351, guid: 9f0cf3d8d0aa0004a8e74c06041b4da9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allTransformsTRSList:
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": 
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0, y: 0, z: 0}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0, y: -0, z: -0, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": ArmsSleeve
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0, y: 0, z: 0}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0, y: -0, z: -0, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": ArmsSleeve/Neutre
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0, y: 0, z: 0}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0, y: -0, z: -0, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.000024587227, y: 0.00025768767, z: -0.0010412141}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0, y: -0, z: -0, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 5.1161384e-11, y: 0.050522946, z: 0.0010501042}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -3.9632437e-17, y: 0.64724684, z: 0.7622805, w: -4.667622e-17}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.0364189, y: 0.0312914, z: -0.0054110563}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.6410514, y: -0.17188554, z: 0.7468974, w: 0.040653642}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.02, y: 2.6645352e-17, z: 0.16}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.202509, y: -0.26724938, z: 0.022621082, w: 0.9418366}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.006, y: -0.008, z: 0.278}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.12961745, y: 0.06831513, z: 0.12912008, w: 0.98074484}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.00056, y: -0.00391, z: 0.14477}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.006733077, y: 0.0012566104, z: -0.04825226, w: 0.9988117}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.001406283, y: -0.002404637, z: 0.16450104}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.008817147, y: -0.04356878, z: -0.13460337, w: 0.989902}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.008010878, y: -0.040588368, z: 0.122026704}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.047469474, y: -0.11578475, z: 0.0534457, w: 0.9906988}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.000005049208, y: 0.0000017879488, z: 0.03680917}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.03134719, y: -0.11632683, z: 0.05600819, w: 0.99113494}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.000004853739, y: -0.0000018975205, z: 0.030703425}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.025868544, y: -0.12247933, z: 0.05048862, w: 0.9908484}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.0000023496286, y: 0.00000037269146, z: 0.029175516}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 1.3877788e-16, y: 7.322997e-17, z: 2.991241e-17, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.0037422408, y: -0.0106058465, z: 0.12462962}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.028774153, y: -0.2248346, z: 0.09886204, w: 0.96894157}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.0000032006824, y: 0.000001724547, z: 0.039238904}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.034886416, y: -0.08456993, z: 0.03664708, w: 0.9951321}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.0000009564682, y: 0.00000016249993, z: 0.035042565}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.05310931, y: -0.09496748, z: 0.03152009, w: 0.9935628}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.000002293547, y: -0.0000015083313, z: 0.027876489}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -2.54629e-34, y: 3.7979975e-17, z: 6.704296e-18, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.015742756, y: 0.049139645, z: 0.10982241}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.013490414, y: -0.2947147, z: 0.12419185, w: 0.94738466}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.0000014942538, y: 0.00000043162441, z: 0.026216464}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.07580599, y: -0.22450416, z: 0.07813727, w: 0.9683728}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.00000043375778, y: 0.0000005080732, z: 0.023044119}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.033986222, y: -0.120842375, z: 0.02734666, w: 0.9917128}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.00000034207213, y: -0.00000046117543, z: 0.022691805}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 1.3877788e-17, y: 1.140324e-18, z: -3.4417745e-19, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.008953366, y: 0.020218806, z: 0.11833946}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.00953173, y: -0.2376107, z: 0.09890665, w: 0.9662649}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.0000013067788, y: -0.000000032336246, z: 0.039874908}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.03669835, y: -0.13125615, z: 0.050491493, w: 0.98938143}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.0000016563749, y: 0.00000010786299, z: 0.03300269}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.045936767, y: -0.10540868, z: 0.030758759, w: 0.99289113}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.0000017121748, y: -0.00000084794453, z: 0.031823974}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 1.9428903e-16, y: 1.1525158e-19, z: 3.561212e-17, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.019468676, y: -0.04508916, z: 0.034433443}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.41524798, y: 0.05171091, z: -0.45241827, w: 0.7875359}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.0000020405748, y: 0.0000021608864, z: 0.041262697}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.00865314, y: -0.10888576, z: -0.013352618, w: 0.99392694}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.000002052071, y: -0.0000017860231, z: 0.038113777}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.004998754, y: -0.13323201, z: 0.004685343, w: 0.9910612}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.0000016113951, y: -0.0000019215493, z: 0.030565973}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 3.3116413e-16, y: -3.8857806e-16, z: 1.3405485e-16, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.036418937, y: 0.031292196, z: -0.0054156804}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.040653642, y: 0.7468974, z: 0.17188554, w: 0.6410514}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.02, y: -5.3290704e-17, z: -0.16}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.202509, y: -0.26724938, z: 0.022621082, w: 0.9418366}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.006, y: 0.00799655, z: -0.278}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.12961745, y: 0.06831513, z: 0.12912008, w: 0.98074484}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.0005551017, y: 0.003913845, z: -0.14477387}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.006733077, y: 0.0012566104, z: -0.04825226, w: 0.9988117}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.0014118927, y: 0.002404289, z: -0.16449766}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.008817147, y: -0.04356878, z: -0.13460337, w: 0.989902}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.0080108335, y: 0.0405882, z: -0.122026406}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.047469474, y: -0.11578475, z: 0.0534457, w: 0.9906988}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 1.0829023e-10, y: -1.0658141e-16, z: -0.03680697}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.03134719, y: -0.11632683, z: 0.05600819, w: 0.99113494}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 8.1657486e-11, y: -1.5276668e-15, z: -0.030707547}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.025868544, y: -0.12247933, z: 0.05048862, w: 0.9908484}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 6.9821336e-11, y: 9.947598e-16, z: -0.02917313}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -2.7755576e-17, y: -2.8226516e-17, z: 6.845216e-18, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.0037407253, y: 0.010605959, z: -0.12462928}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.028774153, y: -0.2248346, z: 0.09886204, w: 0.96894157}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 1.0926591e-10, y: -5.684342e-16, z: -0.039236255}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.034886416, y: -0.08456993, z: 0.03664708, w: 0.9951321}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 8.553314e-11, y: 1.4210854e-16, z: -0.03504098}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.05310931, y: -0.09496748, z: 0.03152009, w: 0.9935628}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 5.095572e-11, y: -6.5725204e-16, z: -0.02788136}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 2.7755576e-17, y: 2.2838478e-16, z: 1.1586765e-16, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.01574237, y: -0.049139626, z: -0.109822355}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.013490414, y: -0.2947147, z: 0.12419185, w: 0.94738466}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 6.919855e-11, y: -8.704148e-16, z: -0.026215442}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.07580599, y: -0.22450416, z: 0.07813727, w: 0.9683728}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 4.0643756e-11, y: 0, z: -0.0230439}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.033986222, y: -0.120842375, z: 0.02734666, w: 0.9917128}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 2.9842794e-15, y: -7.105427e-17, z: -0.02269136}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 1.1690993e-36, y: -4.967487e-18, z: 2.3535023e-19, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.008947383, y: -0.020218033, z: -0.11833832}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.00953173, y: -0.2376107, z: 0.09890665, w: 0.9662649}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 1.0354199e-10, y: -4.6185276e-16, z: -0.039875463}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.03669835, y: -0.13125615, z: 0.050491493, w: 0.98938143}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 7.266152e-11, y: -5.32907e-16, z: -0.033000086}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.045936767, y: -0.10540868, z: 0.030758759, w: 0.99289113}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 5.2296372e-11, y: 2.664535e-16, z: -0.031830598}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 8.326673e-17, y: 1.0879626e-17, z: 1.1546305e-17, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0.01946528, y: 0.04508954, z: -0.034433074}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.41524798, y: 0.05171091, z: -0.45241827, w: 0.7875359}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 2.1316282e-16, y: 1.1889902e-10, z: -0.041263513}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.00865314, y: -0.10888576, z: -0.013352618, w: 0.99392694}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 2.1316282e-16, y: 1.3401781e-10, z: -0.038112134}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0.004998754, y: -0.13323201, z: 0.004685343, w: 0.9910612}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 1.0658141e-16, y: 1.0372865e-10, z: -0.030563924}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -2.4230772e-16, y: -1.6653345e-16, z: 4.754676e-17, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/TabooPistol
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 0, y: 0.039, z: -0.251}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: 0, y: 0, z: 0, w: 1}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 0.035, y: 0.035, z: 0.04}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/TabooPistol/barrel
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: 1.5364578, y: -0.30289227, z: -2.9012668}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/TabooPistol/barrelBase
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.612603, y: 2.9192514, z: 1.7993959}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/TabooPistol/body
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0, y: 0, z: 0}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/TabooPistol/hammer
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -1.0038229, y: 3.9370527, z: 4.700886}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/TabooPistol/ironSight
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -0.27702433, y: 2.983967, z: 1.903705}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/TabooPistol/magazine
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -2.000043, y: -0.9577798, z: 0.08743064}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  - "\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u038A\u0389\u0389": Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/TabooPistol/trigger
+    "\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389":
+      "\u0389\u0389\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u0389\u038A\u0389": {
+        x: -1.0000558, y: -1.4735963, z: 1.1680642}
+      "\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u038A\u038A\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u0389\u038A\u038A\u038A\u0389\u0389": {
+        x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      "\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u0389\u0389\u038A\u0389\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u038A\u038A\u038A\u038A\u0389\u0389\u038A\u0389\u038A\u038A\u0389\u038A\u038A\u0389\u0389\u0389\u0389\u038A\u0389\u038A\u0389\u0389\u0389\u038A\u038A": {
+        x: 1, y: 1, z: 1}
+  topMostLocalPositionRefPose: {x: -0, y: 0, z: 0}
+  topMostLocalRotationRefPose: {x: -0.10629888, y: -0.00000005097045, z: -0.00000014137984,
+    w: 0.9943342}
+  topMostLocalScaleRefPose: {x: 1, y: 1, z: 1}
+  originalAnimationEnable: 0
+  originalAnimationEnablePrefabOverride: 0
+  createdInEditMode: 1
+  originalApplyRootMotion: 0
+  originalApplyRootMotionPrefabOverride: 0
+  originalCullingMode: 1
+  originalCullingModePrefabOverride: 0
+  componentPropertiesSavedList: []
+  restoreSceneLighting: 0
+  transformsBeforeDeoptimizing: []
+  timelineDirector: {fileID: 0}
+  timelineTrackAsset: {fileID: 0}
 --- !u!1 &880429599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,6 +3302,37 @@ Transform:
   - {fileID: 1450890306}
   m_Father: {fileID: 1183306514}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &919996269
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1749997167279068, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 919996270}
+  m_Layer: 0
+  m_Name: LeftArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &919996270
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4137989800667862, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 919996269}
+  m_LocalRotation: {x: 0.16070527, y: -0.7442893, z: -0.345431, w: 0.54852957}
+  m_LocalPosition: {x: -0.02, y: 2.6645352e-17, z: 0.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1462145189}
+  m_Father: {fileID: 1473055565}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &931225763
 GameObject:
@@ -1827,7 +3427,7 @@ Transform:
   m_Children:
   - {fileID: 970761936}
   - {fileID: 1681990915}
-  - {fileID: 1596574055}
+  - {fileID: 1091396056}
   m_Father: {fileID: 1898439071}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2008,6 +3608,37 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59472366692074e4b9b361c04ae85c3a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1020403669
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1875810809484194, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1020403670}
+  m_Layer: 0
+  m_Name: LeftHandThumb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1020403670
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4666927234426948, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1020403669}
+  m_LocalRotation: {x: -0.0007324504, y: 0.042990424, z: 0.032105897, w: 0.99855924}
+  m_LocalPosition: {x: -0.000002052071, y: -0.0000017860231, z: 0.038113777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1877115811}
+  m_Father: {fileID: 855510191}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1066934633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,6 +3732,84 @@ Transform:
   m_Father: {fileID: 564199385}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1091396055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1390745965034844, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1091396056}
+  - component: {fileID: 1091396058}
+  - component: {fileID: 1091396057}
+  m_Layer: 0
+  m_Name: PistolCam
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1091396056
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091396055}
+  m_LocalRotation: {x: -0.09916676, y: 0.35808083, z: -0.038280617, w: -0.9276199}
+  m_LocalPosition: {x: 1.5499644, y: 3.078086, z: -46.770668}
+  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 876424018}
+  m_Father: {fileID: 964522145}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 179.74901, z: 0}
+--- !u!124 &1091396057
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 124803705215591186, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091396055}
+  m_Enabled: 1
+--- !u!20 &1091396058
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20483584348972256, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091396055}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &1095735118
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,6 +3933,37 @@ Transform:
   m_Father: {fileID: 1811748605}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1157565323
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1478400449195806, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1157565324}
+  m_Layer: 0
+  m_Name: LeftHandMiddle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1157565324
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4414384505270944, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1157565323}
+  m_LocalRotation: {x: -0.044002317, y: -0.3304277, z: 0.043334797, w: 0.9418087}
+  m_LocalPosition: {x: -0.0000009564682, y: 0.00000016249993, z: 0.035042565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1468893192}
+  m_Father: {fileID: 1581524362}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183306513
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,6 +4028,67 @@ Transform:
   m_Children:
   - {fileID: 1342917792}
   m_Father: {fileID: 931225764}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1202923631
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1992904715651232, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1202923632}
+  m_Layer: 0
+  m_Name: RightHandIndex4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1202923632
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4562319637164004, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1202923631}
+  m_LocalRotation: {x: -2.7755576e-17, y: -2.8226516e-17, z: 6.845216e-18, w: 1}
+  m_LocalPosition: {x: 6.9821336e-11, y: 9.947598e-16, z: -0.02917313}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1606873088}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1203796540
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1903880748588984, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1203796541}
+  m_Layer: 0
+  m_Name: LeftHandRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1203796541
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4226924799229710, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1203796540}
+  m_LocalRotation: {x: 0.026540335, y: -0.20651005, z: 0.032134723, w: 0.97755647}
+  m_LocalPosition: {x: -0.0000016563749, y: 0.00000010786299, z: 0.03300269}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1807805479}
+  m_Father: {fileID: 93951255}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1217703134
@@ -2525,6 +4326,37 @@ Transform:
   m_Father: {fileID: 1820234512}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1255708968
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1370921417783652, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1255708969}
+  m_Layer: 0
+  m_Name: RightHandPinky3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1255708969
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4167278130078818, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255708968}
+  m_LocalRotation: {x: -0.024062531, y: -0.41664946, z: 0.03638535, w: 0.9080201}
+  m_LocalPosition: {x: 4.0643756e-11, y: 0, z: -0.0230439}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 389274128}
+  m_Father: {fileID: 811177551}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1256196932
 GameObject:
   m_ObjectHideFlags: 0
@@ -2742,6 +4574,37 @@ Transform:
   m_Father: {fileID: 1199866060}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1343837978
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1241201112734728, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1343837979}
+  m_Layer: 0
+  m_Name: LeftHandPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1343837979
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4879675062925504, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1343837978}
+  m_LocalRotation: {x: -0.06923042, y: -0.30217433, z: 0.084018566, w: 0.94701564}
+  m_LocalPosition: {x: -0.0000014942538, y: 0.00000043162441, z: 0.026216464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 425807878}
+  m_Father: {fileID: 750928243}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1375024556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2833,6 +4696,129 @@ Transform:
   - {fileID: 219185942}
   m_Father: {fileID: 880429600}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1462145188
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1195906885341080, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1462145189}
+  m_Layer: 0
+  m_Name: LeftForeArm_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1462145189
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4034424567801846, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462145188}
+  m_LocalRotation: {x: 0.31747755, y: -0.18890639, z: 0.024080921, w: 0.92894703}
+  m_LocalPosition: {x: 0.059013978, y: -0.17099747, z: 0.5168017}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 573682652}
+  m_Father: {fileID: 919996270}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1468893191
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1805877131038920, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1468893192}
+  m_Layer: 0
+  m_Name: LeftHandMiddle4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1468893192
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4959279315382888, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468893191}
+  m_LocalRotation: {x: -2.54629e-34, y: 3.7979975e-17, z: 6.704296e-18, w: 1}
+  m_LocalPosition: {x: 0.000002293547, y: -0.0000015083313, z: 0.027876489}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1157565324}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1473055564
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1562086260044034, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1473055565}
+  m_Layer: 0
+  m_Name: LeftShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1473055565
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4602922678226566, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1473055564}
+  m_LocalRotation: {x: 0.6410515, y: -0.17188555, z: 0.74689746, w: 0.040653642}
+  m_LocalPosition: {x: 0.0364189, y: 0.0312914, z: -0.0054110563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 919996270}
+  m_Father: {fileID: 2018362630}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1481160298
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1674082157118442, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1481160299}
+  m_Layer: 0
+  m_Name: RightHandThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481160299
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4527521672211554, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1481160298}
+  m_LocalRotation: {x: 0.543262, y: -0.14124249, z: -0.74306405, w: 0.3643801}
+  m_LocalPosition: {x: 0.01946528, y: 0.04508954, z: -0.034433074}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 69099090}
+  m_Father: {fileID: 1898235797}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1483234354
 GameObject:
@@ -2991,11 +4977,252 @@ Transform:
   m_Father: {fileID: 1820234512}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1596574055 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4253201634996066, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+--- !u!1 &1531270995
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1458713983442132, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
     type: 2}
-  m_PrefabInternal: {fileID: 809737918}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1531270996}
+  m_Layer: 0
+  m_Name: LeftHandIndex4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1531270996
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4374463261828280, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1531270995}
+  m_LocalRotation: {x: 1.3877788e-16, y: 7.322997e-17, z: 2.991241e-17, w: 1}
+  m_LocalPosition: {x: -0.0000023496286, y: 0.00000037269146, z: 0.029175516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1733995748}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1563738117
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1156831168274424, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1563738118}
+  m_Layer: 0
+  m_Name: LeftHandPinky4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563738118
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4655695614906876, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1563738117}
+  m_LocalRotation: {x: 1.3877788e-17, y: 1.140324e-18, z: -3.4417745e-19, w: 1}
+  m_LocalPosition: {x: 0.00000034207213, y: -0.00000046117543, z: 0.022691805}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425807878}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1570758910
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1159743510671566, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1570758911}
+  m_Layer: 0
+  m_Name: RightShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1570758911
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4174635864214160, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1570758910}
+  m_LocalRotation: {x: -0.040653646, y: 0.74689746, z: 0.17188555, w: 0.6410514}
+  m_LocalPosition: {x: -0.036418937, y: 0.031292196, z: -0.0054156804}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 173055560}
+  m_Father: {fileID: 2018362630}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1581524361
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1410500460833592, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1581524362}
+  m_Layer: 0
+  m_Name: LeftHandMiddle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1581524362
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4168940667422468, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581524361}
+  m_LocalRotation: {x: -0.024929265, y: -0.3239874, z: 0.04402964, w: 0.94470745}
+  m_LocalPosition: {x: -0.0000032006824, y: 0.000001724547, z: 0.039238904}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1157565324}
+  m_Father: {fileID: 1613969123}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1606873087
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1397985385233490, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1606873088}
+  m_Layer: 0
+  m_Name: RightHandIndex3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1606873088
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4533075277451862, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1606873087}
+  m_LocalRotation: {x: -0.009011903, y: -0.4224912, z: 0.05600967, w: 0.90458995}
+  m_LocalPosition: {x: 8.1657486e-11, y: -1.5276668e-15, z: -0.030707547}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1202923632}
+  m_Father: {fileID: 65902704}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1613969122
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1678830744459594, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1613969123}
+  m_Layer: 0
+  m_Name: LeftHandMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1613969123
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4392526286752742, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1613969122}
+  m_LocalRotation: {x: 0.045403503, y: -0.3886765, z: 0.09241302, w: 0.91560304}
+  m_LocalPosition: {x: -0.0037422408, y: -0.0106058465, z: 0.12462962}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1581524362}
+  m_Father: {fileID: 272509068}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1627324996
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1893525868874526, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1627324997}
+  m_Layer: 0
+  m_Name: RightHandMiddle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1627324997
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4250481059782486, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1627324996}
+  m_LocalRotation: {x: -0.031053046, y: -0.5665376, z: 0.05338357, w: 0.8217184}
+  m_LocalPosition: {x: 8.553314e-11, y: 1.4210854e-16, z: -0.03504098}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1860224874}
+  m_Father: {fileID: 484967412}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1638925345
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1992404661524980, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1638925346}
+  m_Layer: 0
+  m_Name: LeftHandIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1638925346
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4656452795097894, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1638925345}
+  m_LocalRotation: {x: 0.056907002, y: -0.30514187, z: 0.043259464, w: 0.94962037}
+  m_LocalPosition: {x: -0.008010878, y: -0.040588368, z: 0.122026704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 407746029}
+  m_Father: {fileID: 272509068}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1681990915 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224113359719691690, guid: 416ae795524d7fe4e966059ddc510ba4,
@@ -3095,6 +5322,68 @@ Transform:
   - {fileID: 537416781}
   m_Father: {fileID: 563074087}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1733995747
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1530131558776846, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1733995748}
+  m_Layer: 0
+  m_Name: LeftHandIndex3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1733995748
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4000709572860862, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1733995747}
+  m_LocalRotation: {x: -0.07934772, y: -0.6486983, z: 0.043475144, w: 0.75564843}
+  m_LocalPosition: {x: 0.000004853739, y: -0.0000018975205, z: 0.030703425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1531270996}
+  m_Father: {fileID: 407746029}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1737136693
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1012038123773760, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1737136694}
+  m_Layer: 0
+  m_Name: RightHandPinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1737136694
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4028599465980384, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1737136693}
+  m_LocalRotation: {x: 0.066966854, y: -0.6829229, z: 0.105456345, w: 0.71972966}
+  m_LocalPosition: {x: 0.01574237, y: -0.049139626, z: -0.109822355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 811177551}
+  m_Father: {fileID: 1898235797}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1744650280
 GameObject:
@@ -3257,6 +5546,37 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 416ae795524d7fe4e966059ddc510ba4, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1761083006
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1706289033276746, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1761083007}
+  m_Layer: 0
+  m_Name: RightHandRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1761083007
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4834719873318620, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761083006}
+  m_LocalRotation: {x: 0.058295585, y: -0.69411886, z: 0.08046754, w: 0.7129696}
+  m_LocalPosition: {x: 0.008947383, y: -0.020218033, z: -0.11833832}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1964109137}
+  m_Father: {fileID: 1898235797}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1783646748
 GameObject:
   m_ObjectHideFlags: 0
@@ -3286,6 +5606,36 @@ Transform:
   m_Children:
   - {fileID: 122676344}
   m_Father: {fileID: 1219340685}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1807805478
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1721530407510464, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1807805479}
+  m_Layer: 0
+  m_Name: LeftHandRing4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1807805479
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4782361971363580, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807805478}
+  m_LocalRotation: {x: 1.9428903e-16, y: 1.1525158e-19, z: 3.561212e-17, w: 1}
+  m_LocalPosition: {x: 0.0000017121748, y: -0.00000084794453, z: 0.031823974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1203796541}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1811748604
@@ -3446,6 +5796,66 @@ Transform:
   m_Father: {fileID: 537416781}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1860224873
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1349779261125390, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1860224874}
+  m_Layer: 0
+  m_Name: RightHandMiddle4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1860224874
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4419614174720132, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1860224873}
+  m_LocalRotation: {x: 2.7755576e-17, y: 2.2838478e-16, z: 1.1586765e-16, w: 1}
+  m_LocalPosition: {x: 5.095572e-11, y: -6.5725204e-16, z: -0.02788136}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1627324997}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1877115810
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1008053184695912, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1877115811}
+  m_Layer: 0
+  m_Name: LeftHandThumb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1877115811
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4941058368952918, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1877115810}
+  m_LocalRotation: {x: 3.3116413e-16, y: -3.8857806e-16, z: 1.3405485e-16, w: 1}
+  m_LocalPosition: {x: -0.0000016113951, y: -0.0000019215493, z: 0.030565973}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1020403670}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1877534091
 GameObject:
   m_ObjectHideFlags: 0
@@ -3474,6 +5884,42 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 850989557}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1898235796
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1509292667928344, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1898235797}
+  m_Layer: 0
+  m_Name: RightHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1898235797
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4225597907187208, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1898235796}
+  m_LocalRotation: {x: -0.019364668, y: 0.036023855, z: 0.03896425, w: 0.9984033}
+  m_LocalPosition: {x: -0.0014118927, y: 0.002404289, z: -0.16449766}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 789209675}
+  - {fileID: 788560234}
+  - {fileID: 1737136694}
+  - {fileID: 1761083007}
+  - {fileID: 1481160299}
+  - {fileID: 496513627}
+  m_Father: {fileID: 427128665}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1898439064
@@ -3772,6 +6218,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1964109136
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1265037149525810, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1964109137}
+  m_Layer: 0
+  m_Name: RightHandRing2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1964109137
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4180251581413300, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1964109136}
+  m_LocalRotation: {x: -0.009896147, y: -0.56451297, z: 0.061629754, w: 0.82306075}
+  m_LocalPosition: {x: 1.0354199e-10, y: -4.6185276e-16, z: -0.039875463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 51103671}
+  m_Father: {fileID: 1761083007}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1979556605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3915,6 +6392,69 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00035607815, y: 0.67061645, z: 0.07728271}
     m_Extent: {x: 0.105886824, y: 0.14456058, z: 0.14704736}
   m_DirtyAABB: 0
+--- !u!1 &1983167225
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1121566560343534, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1983167226}
+  m_Layer: 0
+  m_Name: RightForeArm_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1983167226
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4492455229215130, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1983167225}
+  m_LocalRotation: {x: 0.66253346, y: 0.14082168, z: -0.04128996, w: 0.734516}
+  m_LocalPosition: {x: -0.0032976372, y: 0.009261008, z: -0.26788813}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 427128665}
+  m_Father: {fileID: 173055560}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2018362629
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1226768563469506, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2018362630}
+  m_Layer: 0
+  m_Name: FpsArms
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2018362630
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4992847698761240, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018362629}
+  m_LocalRotation: {x: 3.9632437e-17, y: -0.64724684, z: -0.7622805, w: 4.667622e-17}
+  m_LocalPosition: {x: 5.1161384e-11, y: 0.050522946, z: 0.0010501042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1473055565}
+  - {fileID: 1570758911}
+  m_Father: {fileID: 462280985}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2032589128
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,6 +6519,37 @@ Transform:
   m_Father: {fileID: 537416781}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2110539392
+GameObject:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 1498785761453230, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2110539393}
+  m_Layer: 0
+  m_Name: RightHandThumb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2110539393
+Transform:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 4450060072079134, guid: 1da8c9a144bbe224b8d16395bcbde6d2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110539392}
+  m_LocalRotation: {x: 0.0042105876, y: 0.022293912, z: 0.0054047657, w: 0.999728}
+  m_LocalPosition: {x: 2.1316282e-16, y: 1.3401781e-10, z: -0.038112134}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 253325114}
+  m_Father: {fileID: 69099090}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2132469122
 GameObject:
   m_ObjectHideFlags: 0
@@ -4009,3 +6580,129 @@ Transform:
   m_Father: {fileID: 393367768}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2145584008
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1898235797}
+    m_Modifications:
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.043195523
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.027385917
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.22540468
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.035
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.035
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 211ced5912bd69643ab733c205e63d16, type: 2}
+    - target: {fileID: 2300002, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bd2a5df3070833439a057bb137907f0, type: 2}
+    - target: {fileID: 2300004, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 211ced5912bd69643ab733c205e63d16, type: 2}
+    - target: {fileID: 2300008, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bd2a5df3070833439a057bb137907f0, type: 2}
+    - target: {fileID: 2300006, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bd2a5df3070833439a057bb137907f0, type: 2}
+    - target: {fileID: 2300012, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bd2a5df3070833439a057bb137907f0, type: 2}
+    - target: {fileID: 2300010, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86e0d317a0ebd6945967e65cbb0de19e, type: 2}
+    - target: {fileID: 400006, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.34111673
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.9268916
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.073378
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.015468102
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6012437
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3709754
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: d47601dc45f6569468d654ece585031e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6200989
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d47601dc45f6569468d654ece585031e, type: 3}
+  m_IsPrefabParent: 0
