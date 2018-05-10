@@ -6,7 +6,12 @@ public class MiniMap : MonoBehaviour {
 
     public Transform player;
 
-	void LateUpdate ()
+    private void Start()
+    {
+        player = this.GetComponentInParent<Transform>();
+    }
+
+    void LateUpdate ()
     {
         // MiniMap follows player
         Vector3 newPosition = player.position;
