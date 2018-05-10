@@ -19,6 +19,12 @@ public class VertFire : MonoBehaviour {
             AudioSource fire = GetComponent<AudioSource>();
             fire.Play();
             animatorComp.SetTrigger("FireVert");
+        } 
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            AudioSource reload = GetComponent<AudioSource>();
+            reload.Play();
+            animatorComp.SetTrigger("ReloadVert");
         }
 		
 	}
