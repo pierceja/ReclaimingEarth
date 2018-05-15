@@ -24,9 +24,11 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
 
     void Start()
     {
+        
         anim = GetComponentInChildren<Animator>();
         if (photonView.isMine)
         {
+            GetComponentInChildren<Shoot_assult>().enabled = true;
             GetComponent<FirstPersonController>().enabled = true;
             foreach (Camera cam in GetComponentsInChildren<Camera>())
                 cam.enabled = true;
@@ -83,7 +85,7 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
 
     [PunRPC]
     public void GetShot(float damage)
-    {
+    {   
         health -= damage;
         if (health <= 0 && photonView.isMine)
         {
