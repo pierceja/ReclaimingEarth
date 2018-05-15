@@ -85,7 +85,7 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
 
     [PunRPC]
     public void GetShot(float damage)
-    {
+    {   
         health -= damage;
         if (health <= 0 && photonView.isMine)
         {

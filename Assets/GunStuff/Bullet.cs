@@ -30,8 +30,9 @@ public class Bullet : MonoBehaviour {
         if (c.gameObject.tag == "Player")
         {
             print("hit player");
-            Destroy(gameObject);
-            //c.gameObject.transform.GetComponent().RPC("GetShot", PhotonTargets.All, damage)
+            PhotonNetwork.Destroy(gameObject);
+            PhotonView photonView = c.gameObject.GetComponent<PhotonView>();
+            photonView.RPC("GetShot", PhotonTargets.All, damage);
         }
         else if (c.gameObject.tag != "Bullet")
         {
@@ -40,7 +41,7 @@ public class Bullet : MonoBehaviour {
             //            Quaternion.identity);
 
             sparkTime = 0f;
-            Destroy(gameObject);
+            PhotonNetwork.Destroy(gameObject);
         }
         
 
@@ -50,8 +51,8 @@ public class Bullet : MonoBehaviour {
     {
         if (Time.time - startTime > timeToLive)
         {
-            Destroy(gameObject);
-            Destroy(spark);
+            PhotonNetwork.Destroy(gameObject);
+            PhotonNetwork.Destroy(spark);
             return;
         }
 
@@ -60,8 +61,8 @@ public class Bullet : MonoBehaviour {
             sparkTime += 1;
             if (sparkTime == 10)
             {
-                Destroy(spark);
-                Destroy(gameObject);
+                PhotonNetwork.Destroy(spark);
+                PhotonNetwork.Destroy(gameObject);
             }
         }
         

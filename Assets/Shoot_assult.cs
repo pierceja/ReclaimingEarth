@@ -151,7 +151,7 @@ public class Shoot_assult : MonoBehaviour {
         else
         {
             //Remove muzzleflash if not firing
-            Destroy(muzzleFlash);
+            PhotonNetwork.Destroy(muzzleFlash);
             // if (shoot != null)
             //   {
             //     shoot.Stop();
