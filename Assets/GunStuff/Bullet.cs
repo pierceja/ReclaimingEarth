@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour {
     float sparkTime = -100;
     GameObject spark;
     float startTime;
+    float damage = 35f;
 
     // The fly speed (used by the weapon later)
     public float speed = 2000.0f;
@@ -26,13 +27,21 @@ public class Bullet : MonoBehaviour {
     // find out when it hit something
     void OnCollisionEnter(Collision c)
     {
-        if (c.gameObject.tag != "Bullet")
+        if (c.gameObject.tag == "Player")
         {
-            spark = Instantiate(explosionPrefab,
-                        transform.position,
-                        Quaternion.identity);
+            print("HIT PLAYER");
+            PhotonNetwork.Destroy(gameObject);
+            PhotonView photonView = c.gameObject.GetComponent<PhotonView>();
+            photonView.RPC("GetShot", PhotonTargets.All, damage);
+        }
+        else if (c.gameObject.tag != "Bullet")
+        {
+            //spark = Instantiate(explosionPrefab,
+             //           transform.position,
+            //            Quaternion.identity);
 
             sparkTime = 0f;
+            PhotonNetwork.Destroy(gameObject);
         }
         
 
@@ -42,18 +51,18 @@ public class Bullet : MonoBehaviour {
     {
         if (Time.time - startTime > timeToLive)
         {
-            Destroy(gameObject);
-            Destroy(spark);
+            PhotonNetwork.Destroy(gameObject);
+            PhotonNetwork.Destroy(spark);
             return;
         }
 
-        if (sparkTime !=-100)
+        if (sparkTime !=100)
         {
             sparkTime += 1;
             if (sparkTime == 10)
             {
-                Destroy(spark);
-                Destroy(gameObject);
+                PhotonNetwork.Destroy(spark);
+                PhotonNetwork.Destroy(gameObject);
             }
         }
         

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerNetworkMover : Photon.MonoBehaviour
@@ -22,12 +23,21 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
     bool right = false;
     bool jump = false;
 
+    SimpleHealthBar healthBar;
+    int passedTime = 0;
+
     void Start()
     {
+        healthBar = GameObject.Find("/Player HUD/HealthUI/HealthBar").GetComponent<SimpleHealthBar>();
+
         anim = GetComponentInChildren<Animator>();
         if (photonView.isMine)
         {
+            GetComponentInChildren<Shoot_assult>().enabled = true;
             GetComponent<FirstPersonController>().enabled = true;
+            GetComponentInChildren<ModelSwitch>().enabled = true;
+            GetComponentInChildren<Pistol>().enabled = true;
+            
             foreach (Camera cam in GetComponentsInChildren<Camera>())
                 cam.enabled = true;
         }
@@ -83,15 +93,32 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
 
     [PunRPC]
     public void GetShot(float damage)
-    {
-        health -= damage;
-        if (health <= 0 && photonView.isMine)
+    {   
+        if (photonView.isMine)
         {
-            if (RespawnMe != null)
-                RespawnMe(3f);
+            health -= damage;
+            // Updates health bar
+            healthBar.UpdateBar(health, 100);
 
-            PhotonNetwork.Destroy(gameObject);
+            if (health <= 0)
+            {
+                if (RespawnMe != null)
+                    RespawnMe(3f);
+
+                PhotonNetwork.Destroy(gameObject);
+            }
         }
+        
     }
 
+    //void FixedUpdate()
+    //{
+    //    passedTime += 1;
+
+    //    if (passedTime == 90)
+    //    {
+    //        GetShot(5);
+    //        passedTime = 0;
+    //    }
+    //}
 }
