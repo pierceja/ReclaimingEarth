@@ -66,9 +66,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4188864594563318}
   - component: {fileID: 95255365929859584}
+  - component: {fileID: 64218922342619902}
   m_Layer: 0
   m_Name: Soldier_Team1_Unlit
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,7 +180,7 @@ GameObject:
   - component: {fileID: 114074133424273918}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3737,6 +3738,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &64218922342619902
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051764075692656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
 --- !u!81 &81575998721408294
 AudioListener:
   m_ObjectHideFlags: 1
@@ -4286,7 +4301,7 @@ MonoBehaviour:
     type: 2}
   shootingPrefab: {fileID: 1391847458487284, guid: c33aa9f9ffc805c43860dbdb6ead6f22,
     type: 2}
-  accuracy: 10
+  accuracy: 0.3
   fireRate: 10
   clipSize: 60
   totalAmmo: 100

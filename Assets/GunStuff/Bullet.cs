@@ -29,7 +29,7 @@ public class Bullet : MonoBehaviour {
     {
         if (c.gameObject.tag == "Player")
         {
-            print("hit player");
+            print("HIT PLAYER");
             PhotonNetwork.Destroy(gameObject);
             PhotonView photonView = c.gameObject.GetComponent<PhotonView>();
             photonView.RPC("GetShot", PhotonTargets.All, damage);
@@ -56,7 +56,7 @@ public class Bullet : MonoBehaviour {
             return;
         }
 
-        if (sparkTime !=-100)
+        if (sparkTime !=100)
         {
             sparkTime += 1;
             if (sparkTime == 10)

@@ -70,8 +70,8 @@ public class ModelSwitch : MonoBehaviour
     {
         Image currentWeaponImage = GameObject.Find("/Player HUD/WeaponUI/CurrentWeaponImage").GetComponent<Image>();
         Image secondaryWeaponImage = GameObject.Find("/Player HUD/WeaponUI/SecondaryWeaponImage").GetComponent<Image>();
-        Sprite vertPic = Resources.Load<Sprite>("/Assets/Vert Pic");
-        Sprite pistolPic = Resources.Load<Sprite>("/Assets/Pistol Pic");
+        Sprite vertPic = Resources.Load<Sprite>("VertPic");
+        Sprite pistolPic = Resources.Load<Sprite>("TabooPistolPic");
 
         if (pistol)
         {

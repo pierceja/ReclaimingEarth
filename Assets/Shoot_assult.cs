@@ -115,7 +115,6 @@ public class Shoot_assult : MonoBehaviour {
                     bulletsInClip = totalAmmo + clipSize;
                     totalAmmo = 0;
                 }
-                print("RELOADED");
                 shoot[1].Play();
             }
         }
@@ -321,9 +320,7 @@ public class Shoot_assult : MonoBehaviour {
     void DisplayAmmo(float bulletsInClipVar, float totalAmmoVar)
     {
         Text magAmmoUI = GameObject.Find("/Player HUD/WeaponUI/MagAmmo").GetComponent<Text>();
-        print("Mag ammo:" + magAmmoUI.text);
         Text totalAmmoUI = GameObject.Find("/Player HUD/WeaponUI/TotalAmmo").GetComponent<Text>();
-        print("Total ammo: " + totalAmmoUI.text);
 
         if (magAmmoUI != null)
             magAmmoUI.text = bulletsInClipVar.ToString();

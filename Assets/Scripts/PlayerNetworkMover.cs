@@ -23,10 +23,13 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
     bool right = false;
     bool jump = false;
 
+    SimpleHealthBar healthBar;
+    int passedTime = 0;
 
     void Start()
     {
-        
+        healthBar = GameObject.Find("/Player HUD/HealthUI/HealthBar").GetComponent<SimpleHealthBar>();
+
         anim = GetComponentInChildren<Animator>();
         if (photonView.isMine)
         {
@@ -91,18 +94,31 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
     [PunRPC]
     public void GetShot(float damage)
     {   
-        health -= damage;
-        // Updates health bar
-        //SimpleHealthBar healthBar = GameObject.Find("/Player HUD/HealthUI/HealthBar").GetComponent<SimpleHealthBar>();
-        //healthBar.UpdateBar(health, 100);
-
-        if (health <= 0 && photonView.isMine)
+        if (photonView.isMine)
         {
-            if (RespawnMe != null)
-                RespawnMe(3f);
+            health -= damage;
+            // Updates health bar
+            healthBar.UpdateBar(health, 100);
 
-            PhotonNetwork.Destroy(gameObject);
+            if (health <= 0)
+            {
+                if (RespawnMe != null)
+                    RespawnMe(3f);
+
+                PhotonNetwork.Destroy(gameObject);
+            }
         }
+        
     }
 
+    //void FixedUpdate()
+    //{
+    //    passedTime += 1;
+
+    //    if (passedTime == 90)
+    //    {
+    //        GetShot(5);
+    //        passedTime = 0;
+    //    }
+    //}
 }
