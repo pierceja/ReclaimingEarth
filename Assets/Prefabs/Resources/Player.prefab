@@ -563,7 +563,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4954023383085090}
-  - component: {fileID: 95866520539563838}
   - component: {fileID: 114532055541692310}
   - component: {fileID: 82417761386959622}
   - component: {fileID: 82698828040623080}
@@ -1614,7 +1613,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4951372634639472}
-  - component: {fileID: 95625251004610222}
   - component: {fileID: 114278576681027490}
   m_Layer: 0
   m_Name: TabooPistol
@@ -1645,7 +1643,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1599139917177408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: -0.2}
+  m_LocalPosition: {x: 0, y: 0.669, z: -0.095}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4954023383085090}
@@ -1906,7 +1904,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1051764075692656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.845, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4811659659783036}
@@ -2313,7 +2311,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1099269573454848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9160591, y: 0.5, z: -1.7766421}
+  m_LocalPosition: {x: -1.9160591, y: 0.453, z: -1.7766421}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4004054309894866}
@@ -4096,40 +4094,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!95 &95625251004610222
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1981069138561376}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 1fe78974a5833bf4fa8f550b3dd96934, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!95 &95866520539563838
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1368573207479642}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2d8d425cd5acc104ca1cddf94fc49ce4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114047398958480044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4326,7 +4290,6 @@ MonoBehaviour:
   ownershipTransfer: 0
   ObservedComponents:
   - {fileID: 114074133424273918}
-  - {fileID: 0}
   ObservedComponentsFoldoutOpen: 1
   viewIdField: 0
   instantiationId: -1
