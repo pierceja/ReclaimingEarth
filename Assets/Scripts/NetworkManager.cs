@@ -51,6 +51,8 @@ public class NetworkManager : MonoBehaviour
                                            spawnPoints[index].rotation,
                                            0);
         player.GetComponent<PlayerNetworkMover>().RespawnMe += StartSpawnProcess;
+        SimpleHealthBar healthBar = GameObject.Find("/Player HUD/HealthUI/HealthBar").GetComponent<SimpleHealthBar>();
+        healthBar.UpdateBar(100, 100);
         sceneCamera.enabled = false;
     }
 }
