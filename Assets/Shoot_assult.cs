@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Shoot_assult : MonoBehaviour {
 
@@ -15,20 +16,40 @@ public class Shoot_assult : MonoBehaviour {
     float lastFired;
     //Handle clip size
     public float clipSize = 60;
+    public float totalAmmo = 100;
     float bulletsInClip;
     float angleRadDown;
     float angleRadUp;
     Vector2 error;
     Quaternion errorRotation;
     AudioSource[] shoot;
+    float reloadTime;
+
+    private Animator animatorComp = null;
+    private AudioSource fire;
+    private AudioSource reload;
+    private AudioSource dryFire;
+    private AudioSource[] sounds;
+
 
     void Start()
     {
+        animatorComp = GetComponent<Animator>();
+        sounds = GetComponents<AudioSource>();
+        fire = sounds[0];
+        reload = sounds[1];
+        dryFire = sounds[2];
+
         angleRadDown = (float)(-accuracy / 180.0) * (float)Mathf.PI;
         angleRadUp = (float)(accuracy / 180.0) * (float)Mathf.PI;
         bulletsInClip = clipSize;
         Vector2 error = Random.insideUnitCircle * accuracy;
         Quaternion errorRotation = Quaternion.Euler(error.x, error.y, 0);
+
+        // Show starting ammo
+        DisplayAmmo(bulletsInClip, totalAmmo);
+
+        reloadTime = 130;
     }
 
     //Control three round burst
@@ -40,11 +61,25 @@ public class Shoot_assult : MonoBehaviour {
     bool auto = true;
     bool burst;
 
+    void OnEnable()
+    {
+        // Show current ammo
+        DisplayAmmo(bulletsInClip, totalAmmo);
+    }
 
+    void FixedUpdate()
+    {
+        reloadTime += 1;
+    }
 
     // Update is called once per frame
     void Update()
     {
+
+        // Display ammo change on HUD after reloading is finished
+        if (reloadTime == 120)
+            DisplayAmmo(bulletsInClip, totalAmmo);
+
         //Firing mode can change with keyboard presses
         if (Input.GetKeyDown("1"))
         {
@@ -62,17 +97,30 @@ public class Shoot_assult : MonoBehaviour {
             auto = false;
             semiAuto = true;
             burst = false;
-        } else if (Input.GetKeyDown("r"))
+        } else if (Input.GetKeyDown("r") && bulletsInClip < clipSize && totalAmmo != 0)
         {
             if (bulletsInClip != clipSize)
             {
+                reloadTime = 0;
+
+                // This line causes reload not to work
+                //animatorComp.SetTrigger("ReloadVert");
+
+                // Always reload full clipsize in. If total ammo is negative, still add negative value into the bulletsInClip
+                float bulletsShot = clipSize - bulletsInClip;
                 bulletsInClip = clipSize;
+                totalAmmo -= bulletsShot;
+                if (totalAmmo < 0)
+                {
+                    bulletsInClip = totalAmmo + clipSize;
+                    totalAmmo = 0;
+                }
                 print("RELOADED");
-                shoot[2].Play();
+                shoot[1].Play();
             }
         }
 
-        if (Input.GetMouseButtonDown(0) && (bulletsInClip > 0))
+        if (Input.GetMouseButtonDown(0) && (bulletsInClip > 0) && reloadTime > 120)
         {
             if (stopFiring)
             {
@@ -98,19 +146,30 @@ public class Shoot_assult : MonoBehaviour {
                                                        firePosition.position,
                                                        transform.parent.rotation * errorRotation, 0);
                 bulletsInClip--;
+                // Display ammo change on HUD
+                DisplayAmmo(bulletsInClip, totalAmmo);
                 //print(bulletsInClip);
 
-
-                if (shoot == null)
+                if (sounds == null)
                 {
-                    shoot = GetComponents<AudioSource>();
-                    shoot[0].loop = false;
+                    sounds = GetComponents<AudioSource>();
+                    sounds[0].loop = false;
                 }
                 else
                 {
-
-                    shoot[0].Play();
+                    animatorComp.SetTrigger("FireVert");
+                    sounds[0].Play();
                 }
+                //if (shoot == null)
+                //{
+                //    shoot = GetComponents<AudioSource>();
+                //    shoot[0].loop = false;
+                //}
+                //else
+                //{
+
+                //    shoot[0].Play();
+                //}
 
 
                 // make the rocket fly forward by simply calling the rigidbody's
@@ -146,7 +205,7 @@ public class Shoot_assult : MonoBehaviour {
         }
         else if (Input.GetMouseButtonDown(0) && (bulletsInClip <= 0))
         {
-            shoot[1].Play();
+            shoot[2].Play();
         }
         else
         {
@@ -159,7 +218,7 @@ public class Shoot_assult : MonoBehaviour {
         }
 
         // left mouse clicked?
-        if (Input.GetButton("Fire1") && (bulletsInClip > 0))
+        if (Input.GetButton("Fire1") && (bulletsInClip > 0) && reloadTime > 120)
         {
             if (burst && (bulletsFired >=3))
             {
@@ -188,6 +247,8 @@ public class Shoot_assult : MonoBehaviour {
                                                            firePosition.position,
                                                            transform.parent.rotation*errorRotation, 0);
                     bulletsInClip--;
+                    // Display ammo change on HUD
+                    DisplayAmmo(bulletsInClip, totalAmmo);
                     bulletsFired++;
                     //print(bulletsInClip);
                     //print(bulletsFired);
@@ -254,5 +315,19 @@ public class Shoot_assult : MonoBehaviour {
            //     shoot.Stop();
            // }
         }
+    }
+
+    // Display the ammo amounts on the HUD
+    void DisplayAmmo(float bulletsInClipVar, float totalAmmoVar)
+    {
+        Text magAmmoUI = GameObject.Find("/Player HUD/WeaponUI/MagAmmo").GetComponent<Text>();
+        print("Mag ammo:" + magAmmoUI.text);
+        Text totalAmmoUI = GameObject.Find("/Player HUD/WeaponUI/TotalAmmo").GetComponent<Text>();
+        print("Total ammo: " + totalAmmoUI.text);
+
+        if (magAmmoUI != null)
+            magAmmoUI.text = bulletsInClipVar.ToString();
+        if (totalAmmoUI != null)
+            totalAmmoUI.text = totalAmmoVar.ToString();
     }
 }

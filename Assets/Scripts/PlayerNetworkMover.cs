@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerNetworkMover : Photon.MonoBehaviour
@@ -22,6 +23,7 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
     bool right = false;
     bool jump = false;
 
+
     void Start()
     {
         
@@ -30,6 +32,9 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
         {
             GetComponentInChildren<Shoot_assult>().enabled = true;
             GetComponent<FirstPersonController>().enabled = true;
+            GetComponentInChildren<ModelSwitch>().enabled = true;
+            GetComponentInChildren<Pistol>().enabled = true;
+            
             foreach (Camera cam in GetComponentsInChildren<Camera>())
                 cam.enabled = true;
         }
@@ -87,6 +92,10 @@ public class PlayerNetworkMover : Photon.MonoBehaviour
     public void GetShot(float damage)
     {   
         health -= damage;
+        // Updates health bar
+        //SimpleHealthBar healthBar = GameObject.Find("/Player HUD/HealthUI/HealthBar").GetComponent<SimpleHealthBar>();
+        //healthBar.UpdateBar(health, 100);
+
         if (health <= 0 && photonView.isMine)
         {
             if (RespawnMe != null)
